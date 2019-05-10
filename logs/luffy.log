@@ -9,3 +9,535 @@ INFO 2019-05-10 19:14:38,409 basehttp 154 "GET /admin/login/?next=/admin/ HTTP/1
 INFO 2019-05-10 19:14:38,524 basehttp 154 "GET /static/admin/css/login.css HTTP/1.1" 200 1203
 INFO 2019-05-10 19:14:38,563 basehttp 154 "GET /static/admin/css/base.css HTTP/1.1" 200 16225
 INFO 2019-05-10 19:14:38,696 basehttp 154 "GET /static/admin/css/responsive.css HTTP/1.1" 200 17976
+INFO 2019-05-10 19:47:08,810 basehttp 154 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1819
+WARNING 2019-05-10 19:47:11,609 log 228 Not Found: /favicon.ico
+WARNING 2019-05-10 19:47:11,612 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 1977
+INFO 2019-05-10 19:47:11,920 basehttp 154 "GET / HTTP/1.1" 200 16348
+INFO 2019-05-10 20:01:30,854 basehttp 154 "GET / HTTP/1.1" 200 16348
+INFO 2019-05-10 20:11:19,496 basehttp 154 "GET / HTTP/1.1" 200 16348
+INFO 2019-05-10 20:26:41,082 basehttp 154 "GET / HTTP/1.1" 200 16348
+WARNING 2019-05-10 20:41:41,552 log 228 Not Found: /
+WARNING 2019-05-10 20:41:41,556 basehttp 154 "GET / HTTP/1.1" 404 2030
+WARNING 2019-05-10 20:41:48,284 log 228 Not Found: /favicon.ico
+WARNING 2019-05-10 20:41:48,286 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2081
+WARNING 2019-05-10 20:41:48,716 log 228 Not Found: /api/
+WARNING 2019-05-10 20:41:48,718 basehttp 154 "GET /api/ HTTP/1.1" 404 2114
+INFO 2019-05-10 20:41:55,633 basehttp 154 "GET /api/banner/ HTTP/1.1" 200 9648
+INFO 2019-05-10 20:41:55,824 basehttp 154 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2019-05-10 20:41:55,828 basehttp 154 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+INFO 2019-05-10 20:41:55,849 basehttp 154 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2019-05-10 20:41:55,861 basehttp 154 "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1131
+INFO 2019-05-10 20:41:55,876 basehttp 154 "GET /static/rest_framework/js/jquery-3.3.1.min.js HTTP/1.1" 200 86927
+INFO 2019-05-10 20:41:55,915 basehttp 154 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+INFO 2019-05-10 20:41:55,933 basehttp 154 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1719
+INFO 2019-05-10 20:41:55,950 basehttp 154 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 37608
+INFO 2019-05-10 20:41:55,954 basehttp 154 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2019-05-10 20:41:55,977 basehttp 154 "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2019-05-10 20:41:56,055 basehttp 154 "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+WARNING 2019-05-10 21:00:45,558 log 228 Not Found: /
+WARNING 2019-05-10 21:00:45,559 basehttp 154 "GET / HTTP/1.1" 404 2030
+WARNING 2019-05-10 21:02:43,463 log 228 Not Found: /
+WARNING 2019-05-10 21:02:43,464 basehttp 154 "GET / HTTP/1.1" 404 2030
+WARNING 2019-05-10 21:02:45,802 log 228 Not Found: /
+WARNING 2019-05-10 21:02:45,804 basehttp 154 "GET / HTTP/1.1" 404 2030
+WARNING 2019-05-10 21:04:48,131 log 228 Not Found: /xadmin
+WARNING 2019-05-10 21:04:48,132 basehttp 154 "GET /xadmin HTTP/1.1" 404 2066
+WARNING 2019-05-10 21:07:12,931 log 228 Not Found: /xadmin
+WARNING 2019-05-10 21:07:12,933 basehttp 154 "GET /xadmin HTTP/1.1" 404 2066
+WARNING 2019-05-10 21:07:16,225 log 228 Not Found: /xadmin
+WARNING 2019-05-10 21:07:16,226 basehttp 154 "GET /xadmin HTTP/1.1" 404 2066
+WARNING 2019-05-10 21:07:23,908 log 228 Not Found: /favicon.ico
+WARNING 2019-05-10 21:07:23,911 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2081
+WARNING 2019-05-10 21:07:24,158 log 228 Not Found: /
+WARNING 2019-05-10 21:07:24,161 basehttp 154 "GET / HTTP/1.1" 404 2030
+WARNING 2019-05-10 21:08:04,323 log 228 Not Found: /
+WARNING 2019-05-10 21:08:04,325 basehttp 154 "GET / HTTP/1.1" 404 2031
+INFO 2019-05-10 21:08:10,798 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 4354
+INFO 2019-05-10 21:08:11,059 basehttp 154 "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 200 126432
+INFO 2019-05-10 21:08:11,132 basehttp 154 "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 200 1888
+INFO 2019-05-10 21:08:11,152 basehttp 154 "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 200 4361
+INFO 2019-05-10 21:08:11,216 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 4361
+INFO 2019-05-10 21:08:11,272 basehttp 154 "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 200 21658
+INFO 2019-05-10 21:08:11,288 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 200 4561
+INFO 2019-05-10 21:08:11,292 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 200 8195
+INFO 2019-05-10 21:08:11,317 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 200 42543
+INFO 2019-05-10 21:08:11,325 basehttp 154 "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 200 58327
+INFO 2019-05-10 21:08:11,341 basehttp 154 "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 200 3401
+INFO 2019-05-10 21:08:11,358 basehttp 154 "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 200 8376
+INFO 2019-05-10 21:08:11,404 basehttp 154 "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 200 4165
+INFO 2019-05-10 21:08:11,405 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.effect.js HTTP/1.1" 200 31918
+INFO 2019-05-10 21:08:11,437 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.themes.js HTTP/1.1" 200 3489
+INFO 2019-05-10 21:08:11,444 basehttp 154 "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 200 175
+INFO 2019-05-10 21:08:11,524 basehttp 154 "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 200 240196
+INFO 2019-05-10 21:08:11,527 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 200 15069
+INFO 2019-05-10 21:08:11,852 basehttp 154 "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 200 44432
+INFO 2019-05-10 21:08:17,839 basehttp 154 "POST /xadmin/ HTTP/1.1" 302 0
+WARNING 2019-05-10 21:08:18,932 log 228 Forbidden (CSRF token missing or incorrect.): /xadmin/
+WARNING 2019-05-10 21:08:18,950 basehttp 154 "POST /xadmin/ HTTP/1.1" 403 2508
+INFO 2019-05-10 21:08:21,717 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 12051
+ERROR 2019-05-10 21:08:21,729 basehttp 154 "GET /xadmin/ HTTP/1.1" 500 59
+INFO 2019-05-10 21:08:40,931 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 12051
+INFO 2019-05-10 21:08:41,235 basehttp 154 "GET /static/xadmin/css/xadmin.page.dashboard.css HTTP/1.1" 200 790
+INFO 2019-05-10 21:08:41,280 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-05-10 21:08:41,358 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.1" 200 1000
+INFO 2019-05-10 21:08:41,359 basehttp 154 "GET /static/xadmin/js/xadmin.page.dashboard.js HTTP/1.1" 200 3208
+INFO 2019-05-10 21:09:55,607 basehttp 154 "GET /xadmin/auth/group/ HTTP/1.1" 200 21257
+INFO 2019-05-10 21:09:56,035 basehttp 154 "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 200 3763
+INFO 2019-05-10 21:09:56,187 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-05-10 21:09:56,253 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 200 2319
+INFO 2019-05-10 21:09:56,268 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 200 529
+INFO 2019-05-10 21:09:56,281 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 200 1990
+INFO 2019-05-10 21:09:56,298 basehttp 154 "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 200 1948
+INFO 2019-05-10 21:09:56,302 basehttp 154 "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 200 1105
+INFO 2019-05-10 21:09:58,490 basehttp 154 "GET /xadmin/auth/group/ HTTP/1.1" 200 21257
+ERROR 2019-05-10 21:09:58,495 basehttp 154 "GET /xadmin/auth/group/ HTTP/1.1" 500 59
+INFO 2019-05-10 21:10:01,393 basehttp 154 "GET /xadmin/auth/group/add/ HTTP/1.1" 200 18057
+INFO 2019-05-10 21:10:01,608 basehttp 154 "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+INFO 2019-05-10 21:10:01,691 basehttp 154 "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 304 0
+INFO 2019-05-10 21:10:01,695 basehttp 154 "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 304 0
+INFO 2019-05-10 21:10:01,711 basehttp 154 "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 304 0
+INFO 2019-05-10 21:10:01,720 basehttp 154 "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 304 0
+INFO 2019-05-10 21:10:01,734 basehttp 154 "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 304 0
+INFO 2019-05-10 21:10:01,823 basehttp 154 "GET /static/xadmin/css/xadmin.widget.select-transfer.css HTTP/1.1" 200 2317
+INFO 2019-05-10 21:10:01,863 basehttp 154 "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:10:01,903 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-05-10 21:10:01,907 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:10:01,939 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:10:01,942 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:10:01,965 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:10:01,974 basehttp 154 "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:10:02,054 basehttp 154 "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:10:02,085 basehttp 154 "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:10:02,103 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.effect.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:10:02,105 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.themes.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:10:02,125 basehttp 154 "GET /static/xadmin/js/xadmin.widget.select-transfer.js HTTP/1.1" 200 8214
+INFO 2019-05-10 21:10:02,130 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.quick-form.js HTTP/1.1" 200 7546
+INFO 2019-05-10 21:10:02,175 basehttp 154 "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 304 0
+INFO 2019-05-10 21:10:07,510 basehttp 154 "GET /xadmin/auth/group/ HTTP/1.1" 200 21257
+INFO 2019-05-10 21:10:26,183 basehttp 154 "GET /xadmin/auth/group/ HTTP/1.1" 200 21257
+INFO 2019-05-10 21:10:26,512 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-05-10 21:10:40,253 basehttp 154 "GET /xadmin/auth/user/ HTTP/1.1" 200 31286
+INFO 2019-05-10 21:10:40,504 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-05-10 21:10:40,543 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.1" 200 4198
+INFO 2019-05-10 21:10:44,271 basehttp 154 "GET /xadmin/auth/permission/ HTTP/1.1" 200 86852
+ERROR 2019-05-10 21:10:44,274 basehttp 154 "GET /xadmin/auth/permission/ HTTP/1.1" 500 59
+INFO 2019-05-10 21:10:45,362 basehttp 154 "GET /xadmin/auth/permission/ HTTP/1.1" 200 86852
+INFO 2019-05-10 21:10:45,607 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-05-10 21:10:52,249 basehttp 154 "GET /xadmin/xadmin/log/ HTTP/1.1" 200 27853
+INFO 2019-05-10 21:10:52,621 basehttp 154 "GET /static/xadmin/vendor/bootstrap-datepicker/css/datepicker.css HTTP/1.1" 200 10225
+INFO 2019-05-10 21:10:52,628 basehttp 154 "GET /static/xadmin/vendor/select2/select2.css HTTP/1.1" 200 19226
+INFO 2019-05-10 21:10:52,653 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.css HTTP/1.1" 200 8425
+INFO 2019-05-10 21:10:52,656 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.bootstrap3.css HTTP/1.1" 200 10602
+INFO 2019-05-10 21:10:52,681 basehttp 154 "GET /static/xadmin/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js HTTP/1.1" 200 32656
+INFO 2019-05-10 21:10:52,703 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-05-10 21:10:52,711 basehttp 154 "GET /static/xadmin/js/xadmin.widget.datetime.js HTTP/1.1" 200 2979
+INFO 2019-05-10 21:10:52,763 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.js HTTP/1.1" 200 98602
+INFO 2019-05-10 21:10:52,777 basehttp 154 "GET /static/xadmin/vendor/select2/select2.js HTTP/1.1" 200 104906
+INFO 2019-05-10 21:10:52,788 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 200 694
+INFO 2019-05-10 21:10:52,855 basehttp 154 "GET /static/xadmin/js/xadmin.widget.select.js HTTP/1.1" 200 1344
+INFO 2019-05-10 21:14:16,594 basehttp 154 "GET /xadmin/xadmin/log/ HTTP/1.1" 200 27853
+INFO 2019-05-10 21:14:16,791 basehttp 154 "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+INFO 2019-05-10 21:14:16,803 basehttp 154 "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 304 0
+INFO 2019-05-10 21:14:16,820 basehttp 154 "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 304 0
+INFO 2019-05-10 21:14:16,822 basehttp 154 "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 304 0
+INFO 2019-05-10 21:14:16,833 basehttp 154 "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 304 0
+INFO 2019-05-10 21:14:16,836 basehttp 154 "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 304 0
+INFO 2019-05-10 21:14:16,997 basehttp 154 "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 304 0
+INFO 2019-05-10 21:14:17,189 basehttp 154 "GET /static/xadmin/vendor/select2/select2.css HTTP/1.1" 304 0
+INFO 2019-05-10 21:14:17,217 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.css HTTP/1.1" 304 0
+INFO 2019-05-10 21:14:17,243 basehttp 154 "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:14:17,263 basehttp 154 "GET /static/xadmin/vendor/bootstrap-datepicker/css/datepicker.css HTTP/1.1" 304 0
+INFO 2019-05-10 21:14:17,264 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:14:17,283 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:14:17,326 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.bootstrap3.css HTTP/1.1" 304 0
+INFO 2019-05-10 21:14:17,381 basehttp 154 "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:14:17,382 basehttp 154 "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:14:17,393 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.themes.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:14:17,394 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.effect.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:14:17,413 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:14:17,418 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:14:17,427 basehttp 154 "GET /static/xadmin/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:14:17,447 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:14:17,451 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:14:17,469 basehttp 154 "GET /static/xadmin/js/xadmin.widget.datetime.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:14:17,480 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-05-10 21:14:17,485 basehttp 154 "GET /static/xadmin/vendor/select2/select2.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:14:17,499 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:14:17,505 basehttp 154 "GET /static/xadmin/js/xadmin.widget.select.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:14:17,529 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:14:17,536 basehttp 154 "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:14:17,546 basehttp 154 "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:14:17,612 basehttp 154 "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 304 0
+INFO 2019-05-10 21:14:17,666 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:14:17,705 basehttp 154 "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:15:56,101 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 12051
+INFO 2019-05-10 21:15:56,317 basehttp 154 "GET /static/xadmin/css/xadmin.page.dashboard.css HTTP/1.1" 304 0
+INFO 2019-05-10 21:15:56,352 basehttp 154 "GET /static/xadmin/js/xadmin.page.dashboard.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:15:56,365 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-05-10 21:15:56,423 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:16:22,354 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 12051
+INFO 2019-05-10 21:16:22,548 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-05-10 21:16:37,097 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 12051
+INFO 2019-05-10 21:16:37,322 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-05-10 21:19:01,421 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 9818
+INFO 2019-05-10 21:19:01,751 basehttp 154 "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+INFO 2019-05-10 21:19:01,773 basehttp 154 "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 304 0
+INFO 2019-05-10 21:19:01,791 basehttp 154 "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 304 0
+INFO 2019-05-10 21:19:01,819 basehttp 154 "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 304 0
+INFO 2019-05-10 21:19:01,820 basehttp 154 "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 304 0
+INFO 2019-05-10 21:19:01,835 basehttp 154 "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 304 0
+INFO 2019-05-10 21:19:01,837 basehttp 154 "GET /static/xadmin/css/xadmin.page.dashboard.css HTTP/1.1" 304 0
+INFO 2019-05-10 21:19:01,850 basehttp 154 "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:19:01,897 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:19:01,969 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-05-10 21:19:01,974 basehttp 154 "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:19:01,984 basehttp 154 "GET /static/xadmin/js/xadmin.page.dashboard.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:19:01,986 basehttp 154 "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:19:01,996 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:19:02,021 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:19:02,143 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:19:02,231 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:19:02,355 basehttp 154 "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:19:02,389 basehttp 154 "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 304 0
+INFO 2019-05-10 21:19:07,242 basehttp 154 "GET /xadmin/reversion/revision/ HTTP/1.1" 200 24473
+INFO 2019-05-10 21:19:07,641 basehttp 154 "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 304 0
+INFO 2019-05-10 21:19:07,652 basehttp 154 "GET /static/xadmin/vendor/bootstrap-datepicker/css/datepicker.css HTTP/1.1" 304 0
+INFO 2019-05-10 21:19:07,674 basehttp 154 "GET /static/xadmin/vendor/select2/select2.css HTTP/1.1" 304 0
+INFO 2019-05-10 21:19:07,682 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.css HTTP/1.1" 304 0
+INFO 2019-05-10 21:19:07,728 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.bootstrap3.css HTTP/1.1" 304 0
+INFO 2019-05-10 21:19:07,739 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:19:07,739 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:19:07,746 basehttp 154 "GET /static/xadmin/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:19:07,763 basehttp 154 "GET /static/xadmin/js/xadmin.widget.datetime.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:19:07,764 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-05-10 21:19:07,777 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:19:07,779 basehttp 154 "GET /static/xadmin/vendor/select2/select2.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:19:07,838 basehttp 154 "GET /static/xadmin/js/xadmin.widget.select.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:19:07,843 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:19:07,851 basehttp 154 "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:19:07,861 basehttp 154 "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:19:07,869 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 304 0
+WARNING 2019-05-10 21:19:27,836 log 228 Not Found: /favicon.ico
+WARNING 2019-05-10 21:19:27,837 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2082
+INFO 2019-05-10 21:19:28,496 basehttp 154 "GET /xadmin HTTP/1.1" 301 0
+INFO 2019-05-10 21:19:28,701 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 9818
+INFO 2019-05-10 21:19:28,936 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-05-10 21:19:33,058 basehttp 154 "GET /xadmin/xadmin/log/ HTTP/1.1" 200 25635
+INFO 2019-05-10 21:19:33,362 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-05-10 21:19:48,852 basehttp 154 "GET /xadmin/reversion/revision/ HTTP/1.1" 200 24473
+INFO 2019-05-10 21:19:49,223 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-05-10 21:19:51,378 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 9818
+INFO 2019-05-10 21:19:51,684 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+WARNING 2019-05-10 21:21:22,036 log 228 Not Found: /
+WARNING 2019-05-10 21:21:22,038 basehttp 154 "GET / HTTP/1.1" 404 2031
+INFO 2019-05-10 21:21:27,830 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 9818
+INFO 2019-05-10 21:21:28,071 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-05-10 21:23:43,279 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 9818
+INFO 2019-05-10 21:23:43,601 basehttp 154 "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+INFO 2019-05-10 21:23:43,602 basehttp 154 "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 304 0
+INFO 2019-05-10 21:23:43,617 basehttp 154 "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 304 0
+INFO 2019-05-10 21:23:43,677 basehttp 154 "GET /static/xadmin/css/xadmin.page.dashboard.css HTTP/1.1" 304 0
+INFO 2019-05-10 21:23:43,687 basehttp 154 "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 304 0
+INFO 2019-05-10 21:23:43,711 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:23:43,721 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:23:43,733 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:23:43,751 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-05-10 21:23:43,806 basehttp 154 "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:23:43,808 basehttp 154 "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 304 0
+INFO 2019-05-10 21:23:43,818 basehttp 154 "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:23:43,856 basehttp 154 "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:23:43,860 basehttp 154 "GET /static/xadmin/js/xadmin.page.dashboard.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:23:43,867 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:23:43,925 basehttp 154 "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 304 0
+INFO 2019-05-10 21:23:44,036 basehttp 154 "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:23:44,110 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:23:44,397 basehttp 154 "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 304 0
+INFO 2019-05-10 21:26:11,012 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 9818
+INFO 2019-05-10 21:26:11,299 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-05-10 21:27:30,571 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 9818
+INFO 2019-05-10 21:27:30,872 basehttp 154 "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+INFO 2019-05-10 21:27:30,900 basehttp 154 "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 304 0
+INFO 2019-05-10 21:27:30,908 basehttp 154 "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 304 0
+INFO 2019-05-10 21:27:30,914 basehttp 154 "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 304 0
+INFO 2019-05-10 21:27:30,918 basehttp 154 "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 304 0
+INFO 2019-05-10 21:27:30,928 basehttp 154 "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 304 0
+INFO 2019-05-10 21:27:30,932 basehttp 154 "GET /static/xadmin/css/xadmin.page.dashboard.css HTTP/1.1" 304 0
+INFO 2019-05-10 21:27:30,957 basehttp 154 "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:27:30,982 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:27:30,988 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:27:30,992 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-05-10 21:27:30,992 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:27:30,993 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:27:31,011 basehttp 154 "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:27:31,012 basehttp 154 "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:27:31,040 basehttp 154 "GET /static/xadmin/js/xadmin.page.dashboard.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:27:31,043 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:27:31,077 basehttp 154 "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:27:31,520 basehttp 154 "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 304 0
+INFO 2019-05-10 21:27:36,056 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 9818
+INFO 2019-05-10 21:27:36,276 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-05-10 21:28:10,984 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 9818
+INFO 2019-05-10 21:28:11,216 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-05-10 21:29:07,370 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 9818
+INFO 2019-05-10 21:29:07,553 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-05-10 21:29:10,254 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 9818
+INFO 2019-05-10 21:29:10,545 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-05-10 21:30:15,701 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 9818
+INFO 2019-05-10 21:30:15,933 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-05-10 21:31:03,359 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 9818
+INFO 2019-05-10 21:31:03,608 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+WARNING 2019-05-10 21:32:26,942 log 228 Not Found: /favicon.ico
+WARNING 2019-05-10 21:32:26,962 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 1978
+WARNING 2019-05-10 21:32:27,225 log 228 Not Found: /
+WARNING 2019-05-10 21:32:27,228 basehttp 154 "GET / HTTP/1.1" 404 1927
+INFO 2019-05-10 21:32:39,088 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 13227
+INFO 2019-05-10 21:32:39,387 basehttp 154 "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+INFO 2019-05-10 21:32:39,400 basehttp 154 "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 304 0
+INFO 2019-05-10 21:32:39,451 basehttp 154 "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 304 0
+INFO 2019-05-10 21:32:39,460 basehttp 154 "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 304 0
+INFO 2019-05-10 21:32:39,473 basehttp 154 "GET /static/xadmin/css/xadmin.page.dashboard.css HTTP/1.1" 304 0
+INFO 2019-05-10 21:32:39,476 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:32:39,494 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:32:39,517 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:32:39,573 basehttp 154 "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:32:39,575 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:32:39,737 basehttp 154 "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 304 0
+INFO 2019-05-10 21:32:39,752 basehttp 154 "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:32:39,765 basehttp 154 "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:32:39,768 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.themes.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:32:39,818 basehttp 154 "GET /static/xadmin/js/xadmin.page.dashboard.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:32:39,827 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.effect.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:32:39,925 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:32:40,004 basehttp 154 "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 304 0
+INFO 2019-05-10 21:32:40,089 basehttp 154 "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:32:40,175 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-05-10 21:32:40,215 basehttp 154 "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 304 0
+INFO 2019-05-10 21:34:10,719 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 14376
+INFO 2019-05-10 21:34:11,381 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-05-10 21:34:16,503 basehttp 154 "GET /xadmin/home/bannerinfo/ HTTP/1.1" 200 24048
+INFO 2019-05-10 21:34:16,805 basehttp 154 "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 304 0
+INFO 2019-05-10 21:34:16,829 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-05-10 21:34:16,852 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:34:16,891 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:34:16,903 basehttp 154 "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:34:16,917 basehttp 154 "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:34:16,977 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:34:46,464 basehttp 154 "GET /xadmin/home/bannerinfo/add/ HTTP/1.1" 200 19728
+INFO 2019-05-10 21:34:46,726 basehttp 154 "GET /static/xadmin/vendor/bootstrap-image-gallery/css/bootstrap-image-gallery.css HTTP/1.1" 200 3339
+INFO 2019-05-10 21:34:46,749 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-05-10 21:34:46,753 basehttp 154 "GET /static/xadmin/vendor/load-image/load-image.js HTTP/1.1" 200 8309
+INFO 2019-05-10 21:34:46,790 basehttp 154 "GET /static/xadmin/vendor/bootstrap-image-gallery/js/bootstrap-image-gallery.js HTTP/1.1" 200 15611
+INFO 2019-05-10 21:37:11,214 basehttp 154 "POST /xadmin/home/bannerinfo/add/ HTTP/1.1" 302 0
+INFO 2019-05-10 21:37:12,058 basehttp 154 "GET /xadmin/home/bannerinfo/add/ HTTP/1.1" 200 20075
+INFO 2019-05-10 21:37:12,219 basehttp 154 "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+INFO 2019-05-10 21:37:12,275 basehttp 154 "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 304 0
+INFO 2019-05-10 21:37:12,294 basehttp 154 "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 304 0
+INFO 2019-05-10 21:37:12,309 basehttp 154 "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 304 0
+INFO 2019-05-10 21:37:12,313 basehttp 154 "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 304 0
+INFO 2019-05-10 21:37:12,323 basehttp 154 "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 304 0
+INFO 2019-05-10 21:37:12,352 basehttp 154 "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:37:12,358 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:37:12,373 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-05-10 21:37:12,378 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:37:12,379 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:37:12,393 basehttp 154 "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:37:12,408 basehttp 154 "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:37:12,463 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.effect.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:37:12,465 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.themes.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:37:12,478 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:37:12,557 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:37:12,594 basehttp 154 "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:37:12,942 basehttp 154 "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 304 0
+INFO 2019-05-10 21:37:51,933 basehttp 154 "POST /xadmin/home/bannerinfo/add/ HTTP/1.1" 302 0
+INFO 2019-05-10 21:37:52,587 basehttp 154 "GET /xadmin/home/bannerinfo/add/ HTTP/1.1" 200 20075
+INFO 2019-05-10 21:37:52,806 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-05-10 21:38:24,505 basehttp 154 "POST /xadmin/home/bannerinfo/add/ HTTP/1.1" 302 0
+INFO 2019-05-10 21:38:24,997 basehttp 154 "GET /xadmin/home/bannerinfo/ HTTP/1.1" 200 29253
+INFO 2019-05-10 21:38:25,329 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-05-10 21:38:25,342 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:38:48,837 basehttp 154 "GET /xadmin/home/bannerinfo/?_cols=name.orders.is_show.note HTTP/1.1" 200 31320
+INFO 2019-05-10 21:38:49,134 basehttp 154 "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 304 0
+INFO 2019-05-10 21:38:49,140 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:38:49,162 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-05-10 21:38:49,163 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:38:49,166 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:38:49,200 basehttp 154 "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:38:49,206 basehttp 154 "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 304 0
+WARNING 2019-05-10 21:43:59,353 log 228 Not Found: /favicon.ico
+WARNING 2019-05-10 21:43:59,360 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 1978
+WARNING 2019-05-10 21:45:49,851 log 228 Not Found: /
+WARNING 2019-05-10 21:45:49,853 basehttp 154 "GET / HTTP/1.1" 404 2031
+INFO 2019-05-10 21:45:51,370 basehttp 154 "GET /xadmin/home/bannerinfo/?_cols=name.orders.is_show.note HTTP/1.1" 200 31320
+INFO 2019-05-10 21:45:51,534 basehttp 154 "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+INFO 2019-05-10 21:45:51,536 basehttp 154 "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 304 0
+INFO 2019-05-10 21:45:51,618 basehttp 154 "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 304 0
+INFO 2019-05-10 21:45:51,641 basehttp 154 "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 304 0
+INFO 2019-05-10 21:45:51,692 basehttp 154 "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 304 0
+INFO 2019-05-10 21:45:51,724 basehttp 154 "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 304 0
+INFO 2019-05-10 21:45:51,793 basehttp 154 "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 304 0
+INFO 2019-05-10 21:45:51,890 basehttp 154 "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:45:51,921 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:45:51,934 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-05-10 21:45:51,968 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:45:51,972 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:45:51,990 basehttp 154 "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:45:52,006 basehttp 154 "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:45:52,007 basehttp 154 "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:45:52,024 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.effect.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:45:52,028 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.themes.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:45:52,039 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:45:52,044 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:45:52,117 basehttp 154 "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:45:52,117 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:45:52,157 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:45:52,283 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:45:52,383 basehttp 154 "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 304 0
+INFO 2019-05-10 21:45:52,941 basehttp 154 "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 304 0
+WARNING 2019-05-10 21:45:56,892 log 228 Not Found: /api/
+WARNING 2019-05-10 21:45:56,894 basehttp 154 "GET /api/ HTTP/1.1" 404 2115
+INFO 2019-05-10 21:46:03,720 basehttp 154 "GET /api/banner/ HTTP/1.1" 200 10505
+INFO 2019-05-10 21:51:35,657 basehttp 154 "GET /api/banner/ HTTP/1.1" 200 10505
+INFO 2019-05-10 21:52:58,770 basehttp 154 "GET /api/banner/ HTTP/1.1" 200 253
+INFO 2019-05-10 21:57:26,611 basehttp 154 "GET /api/banner/ HTTP/1.1" 200 253
+INFO 2019-05-10 22:02:49,466 basehttp 154 "GET /api/banner/ HTTP/1.1" 200 253
+INFO 2019-05-10 22:03:55,631 basehttp 154 "GET /api/banner/ HTTP/1.1" 200 253
+INFO 2019-05-10 22:07:28,019 basehttp 154 "GET /api/banner/ HTTP/1.1" 200 253
+WARNING 2019-05-10 22:08:50,669 log 228 Not Found: /media/banner/3.png
+WARNING 2019-05-10 22:08:50,681 log 228 Not Found: /media/banner/2.png
+WARNING 2019-05-10 22:08:50,686 basehttp 154 "GET /media/banner/3.png HTTP/1.1" 404 2103
+WARNING 2019-05-10 22:08:50,697 log 228 Not Found: /media/banner/1.png
+WARNING 2019-05-10 22:08:50,698 basehttp 154 "GET /media/banner/2.png HTTP/1.1" 404 2103
+WARNING 2019-05-10 22:08:50,701 basehttp 154 "GET /media/banner/1.png HTTP/1.1" 404 2103
+INFO 2019-05-10 22:09:03,243 basehttp 154 "GET /api/banner/ HTTP/1.1" 200 253
+WARNING 2019-05-10 22:09:04,697 log 228 Not Found: /media/banner/3.png
+WARNING 2019-05-10 22:09:04,710 log 228 Not Found: /media/banner/2.png
+WARNING 2019-05-10 22:09:04,719 log 228 Not Found: /media/banner/1.png
+WARNING 2019-05-10 22:09:04,720 basehttp 154 "GET /media/banner/3.png HTTP/1.1" 404 2103
+WARNING 2019-05-10 22:09:04,723 basehttp 154 "GET /media/banner/2.png HTTP/1.1" 404 2103
+WARNING 2019-05-10 22:09:04,724 basehttp 154 "GET /media/banner/1.png HTTP/1.1" 404 2103
+INFO 2019-05-10 22:10:18,570 basehttp 154 "GET /api/banner/ HTTP/1.1" 200 253
+WARNING 2019-05-10 22:10:19,545 log 228 Not Found: /media/banner/3.png
+WARNING 2019-05-10 22:10:19,559 log 228 Not Found: /media/banner/2.png
+WARNING 2019-05-10 22:10:19,565 log 228 Not Found: /media/banner/1.png
+WARNING 2019-05-10 22:10:19,568 basehttp 154 "GET /media/banner/3.png HTTP/1.1" 404 2103
+WARNING 2019-05-10 22:10:19,568 basehttp 154 "GET /media/banner/2.png HTTP/1.1" 404 2103
+WARNING 2019-05-10 22:10:19,569 basehttp 154 "GET /media/banner/1.png HTTP/1.1" 404 2103
+WARNING 2019-05-10 22:11:07,401 log 228 Not Found: /media/banner/3.png
+WARNING 2019-05-10 22:11:07,412 log 228 Not Found: /media/banner/1.png
+WARNING 2019-05-10 22:11:07,417 log 228 Not Found: /media/banner/2.png
+WARNING 2019-05-10 22:11:07,418 basehttp 154 "GET /media/banner/3.png HTTP/1.1" 404 2103
+WARNING 2019-05-10 22:11:07,419 basehttp 154 "GET /media/banner/1.png HTTP/1.1" 404 2103
+WARNING 2019-05-10 22:11:07,420 basehttp 154 "GET /media/banner/2.png HTTP/1.1" 404 2103
+INFO 2019-05-10 22:11:17,628 basehttp 154 "GET /api/banner/ HTTP/1.1" 200 253
+WARNING 2019-05-10 22:11:18,823 log 228 Not Found: /media/banner/3.png
+WARNING 2019-05-10 22:11:18,825 basehttp 154 "GET /media/banner/3.png HTTP/1.1" 404 2103
+WARNING 2019-05-10 22:11:18,850 log 228 Not Found: /media/banner/2.png
+WARNING 2019-05-10 22:11:18,857 log 228 Not Found: /media/banner/1.png
+WARNING 2019-05-10 22:11:18,859 basehttp 154 "GET /media/banner/2.png HTTP/1.1" 404 2103
+WARNING 2019-05-10 22:11:18,860 basehttp 154 "GET /media/banner/1.png HTTP/1.1" 404 2103
+INFO 2019-05-10 22:11:46,068 basehttp 154 "GET /api/banner/ HTTP/1.1" 200 253
+WARNING 2019-05-10 22:11:47,067 log 228 Not Found: /media/banner/3.png
+WARNING 2019-05-10 22:11:47,079 log 228 Not Found: /media/banner/2.png
+WARNING 2019-05-10 22:11:47,083 log 228 Not Found: /media/banner/1.png
+WARNING 2019-05-10 22:11:47,085 basehttp 154 "GET /media/banner/3.png HTTP/1.1" 404 2103
+WARNING 2019-05-10 22:11:47,086 basehttp 154 "GET /media/banner/2.png HTTP/1.1" 404 2103
+WARNING 2019-05-10 22:11:47,088 basehttp 154 "GET /media/banner/1.png HTTP/1.1" 404 2103
+INFO 2019-05-10 22:12:41,196 basehttp 154 "GET /api/banner/ HTTP/1.1" 200 253
+WARNING 2019-05-10 22:12:42,157 log 228 Not Found: /media/banner/3.png
+WARNING 2019-05-10 22:12:42,175 log 228 Not Found: /media/banner/1.png
+WARNING 2019-05-10 22:12:42,176 log 228 Not Found: /media/banner/2.png
+WARNING 2019-05-10 22:12:42,177 basehttp 154 "GET /media/banner/3.png HTTP/1.1" 404 2103
+WARNING 2019-05-10 22:12:42,178 basehttp 154 "GET /media/banner/1.png HTTP/1.1" 404 2103
+WARNING 2019-05-10 22:12:42,179 basehttp 154 "GET /media/banner/2.png HTTP/1.1" 404 2103
+INFO 2019-05-10 22:15:02,997 basehttp 154 "GET /api/banner/ HTTP/1.1" 200 253
+WARNING 2019-05-10 22:15:03,924 log 228 Not Found: /media/banner/3.png
+WARNING 2019-05-10 22:15:03,924 log 228 Not Found: /media/banner/2.png
+WARNING 2019-05-10 22:15:03,934 log 228 Not Found: /media/banner/1.png
+WARNING 2019-05-10 22:15:03,936 basehttp 154 "GET /media/banner/3.png HTTP/1.1" 404 2103
+WARNING 2019-05-10 22:15:03,937 basehttp 154 "GET /media/banner/2.png HTTP/1.1" 404 2103
+WARNING 2019-05-10 22:15:03,938 basehttp 154 "GET /media/banner/1.png HTTP/1.1" 404 2103
+INFO 2019-05-10 22:16:59,306 basehttp 154 "GET /api/banner/ HTTP/1.1" 200 253
+WARNING 2019-05-10 22:16:59,396 log 228 Not Found: /media/banner/3.png
+WARNING 2019-05-10 22:16:59,398 basehttp 154 "GET /media/banner/3.png HTTP/1.1" 404 2103
+WARNING 2019-05-10 22:16:59,465 log 228 Not Found: /media/banner/1.png
+WARNING 2019-05-10 22:16:59,466 basehttp 154 "GET /media/banner/1.png HTTP/1.1" 404 2103
+WARNING 2019-05-10 22:16:59,513 log 228 Not Found: /media/banner/2.png
+WARNING 2019-05-10 22:16:59,515 basehttp 154 "GET /media/banner/2.png HTTP/1.1" 404 2103
+INFO 2019-05-10 22:17:00,984 basehttp 154 "GET /api/banner/ HTTP/1.1" 200 253
+WARNING 2019-05-10 22:17:02,783 log 228 Not Found: /media/banner/2.png
+WARNING 2019-05-10 22:17:02,792 log 228 Not Found: /media/banner/3.png
+WARNING 2019-05-10 22:17:02,803 log 228 Not Found: /media/banner/1.png
+WARNING 2019-05-10 22:17:02,804 basehttp 154 "GET /media/banner/2.png HTTP/1.1" 404 2103
+WARNING 2019-05-10 22:17:02,805 basehttp 154 "GET /media/banner/3.png HTTP/1.1" 404 2103
+WARNING 2019-05-10 22:17:02,806 basehttp 154 "GET /media/banner/1.png HTTP/1.1" 404 2103
+INFO 2019-05-10 22:22:27,759 basehttp 154 "GET /api/banner/ HTTP/1.1" 200 253
+INFO 2019-05-10 22:22:28,993 basehttp 154 "GET /media/banner/3.png HTTP/1.1" 200 112130
+INFO 2019-05-10 22:22:29,035 basehttp 154 "GET /media/banner/1.png HTTP/1.1" 200 402656
+INFO 2019-05-10 22:22:29,132 basehttp 154 "GET /media/banner/2.png HTTP/1.1" 200 548211
+INFO 2019-05-10 22:23:07,329 basehttp 154 "GET /api/banner/ HTTP/1.1" 200 253
+INFO 2019-05-10 22:23:09,000 basehttp 154 "GET /media/banner/3.png HTTP/1.1" 200 112130
+INFO 2019-05-10 22:23:09,014 basehttp 154 "GET /media/banner/2.png HTTP/1.1" 200 548211
+INFO 2019-05-10 22:23:09,065 basehttp 154 "GET /media/banner/1.png HTTP/1.1" 200 402656
+INFO 2019-05-10 22:23:21,010 basehttp 154 "GET /api/banner/ HTTP/1.1" 200 253
+INFO 2019-05-10 22:23:22,058 basehttp 154 "GET /media/banner/3.png HTTP/1.1" 200 112130
+INFO 2019-05-10 22:23:22,133 basehttp 154 "GET /media/banner/1.png HTTP/1.1" 200 402656
+INFO 2019-05-10 22:23:22,135 basehttp 154 "GET /media/banner/2.png HTTP/1.1" 200 548211
+INFO 2019-05-10 22:24:55,323 basehttp 154 "GET /api/banner/ HTTP/1.1" 200 253
+WARNING 2019-05-10 22:53:20,679 log 228 Not Found: /favicon.ico
+WARNING 2019-05-10 22:53:20,687 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2206
+WARNING 2019-05-10 22:53:21,355 log 228 Not Found: /
+WARNING 2019-05-10 22:53:21,357 basehttp 154 "GET / HTTP/1.1" 404 2155
+WARNING 2019-05-10 22:53:29,253 log 228 Not Found: /api/
+WARNING 2019-05-10 22:53:29,254 basehttp 154 "GET /api/ HTTP/1.1" 404 2394
+INFO 2019-05-10 22:53:36,469 basehttp 154 "GET /api/nav/ HTTP/1.1" 200 9603
+INFO 2019-05-10 22:53:44,717 basehttp 154 "GET /xadmin/home/bannerinfo/?_cols=name.orders.is_show.note HTTP/1.1" 200 32029
+INFO 2019-05-10 22:53:44,880 basehttp 154 "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+INFO 2019-05-10 22:53:44,895 basehttp 154 "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 304 0
+INFO 2019-05-10 22:53:44,985 basehttp 154 "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 304 0
+INFO 2019-05-10 22:53:45,000 basehttp 154 "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 304 0
+INFO 2019-05-10 22:53:45,002 basehttp 154 "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 304 0
+INFO 2019-05-10 22:53:45,015 basehttp 154 "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 304 0
+INFO 2019-05-10 22:53:45,017 basehttp 154 "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 304 0
+INFO 2019-05-10 22:53:45,034 basehttp 154 "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2019-05-10 22:53:45,058 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 304 0
+INFO 2019-05-10 22:53:45,060 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-05-10 22:53:45,083 basehttp 154 "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 304 0
+INFO 2019-05-10 22:53:45,086 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 304 0
+INFO 2019-05-10 22:53:45,089 basehttp 154 "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+INFO 2019-05-10 22:53:45,089 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 304 0
+INFO 2019-05-10 22:53:45,109 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.effect.js HTTP/1.1" 304 0
+INFO 2019-05-10 22:53:45,111 basehttp 154 "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 304 0
+INFO 2019-05-10 22:53:45,112 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.themes.js HTTP/1.1" 304 0
+INFO 2019-05-10 22:53:45,112 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 304 0
+INFO 2019-05-10 22:53:45,124 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 304 0
+INFO 2019-05-10 22:53:45,129 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 304 0
+INFO 2019-05-10 22:53:45,139 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 304 0
+INFO 2019-05-10 22:53:45,143 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.1" 304 0
+INFO 2019-05-10 22:53:45,163 basehttp 154 "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 304 0
+INFO 2019-05-10 22:53:45,164 basehttp 154 "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 304 0
+INFO 2019-05-10 22:53:45,279 basehttp 154 "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 304 0
+INFO 2019-05-10 22:53:47,704 basehttp 154 "GET /xadmin/home/navinfo/ HTTP/1.1" 200 24558
+INFO 2019-05-10 22:53:47,906 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-05-10 22:53:55,427 basehttp 154 "GET /xadmin/home/navinfo/add/ HTTP/1.1" 200 18855
+INFO 2019-05-10 22:53:55,633 basehttp 154 "GET /static/xadmin/vendor/select2/select2.css HTTP/1.1" 304 0
+INFO 2019-05-10 22:53:55,668 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.bootstrap3.css HTTP/1.1" 304 0
+INFO 2019-05-10 22:53:55,699 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.css HTTP/1.1" 304 0
+INFO 2019-05-10 22:53:55,703 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-05-10 22:53:55,724 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.1" 304 0
+INFO 2019-05-10 22:53:55,725 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.js HTTP/1.1" 304 0
+INFO 2019-05-10 22:53:55,776 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 304 0
+INFO 2019-05-10 22:53:55,788 basehttp 154 "GET /static/xadmin/js/xadmin.widget.select.js HTTP/1.1" 304 0
+INFO 2019-05-10 22:53:55,808 basehttp 154 "GET /static/xadmin/vendor/select2/select2.js HTTP/1.1" 304 0
+INFO 2019-05-10 22:55:00,725 basehttp 154 "POST /xadmin/home/navinfo/add/ HTTP/1.1" 302 0
+INFO 2019-05-10 22:55:01,290 basehttp 154 "GET /xadmin/home/navinfo/add/ HTTP/1.1" 200 19190
+INFO 2019-05-10 22:55:01,542 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-05-10 22:55:18,236 basehttp 154 "POST /xadmin/home/navinfo/add/ HTTP/1.1" 302 0
+INFO 2019-05-10 22:55:18,642 basehttp 154 "GET /xadmin/home/navinfo/add/ HTTP/1.1" 200 19190
+INFO 2019-05-10 22:55:18,813 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-05-10 22:55:29,139 basehttp 154 "POST /xadmin/home/navinfo/add/ HTTP/1.1" 302 0
+INFO 2019-05-10 22:55:29,533 basehttp 154 "GET /xadmin/home/navinfo/add/ HTTP/1.1" 200 19190
+INFO 2019-05-10 22:55:29,729 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-05-10 22:55:33,401 basehttp 154 "GET /xadmin/home/navinfo/ HTTP/1.1" 200 29493
+INFO 2019-05-10 22:55:33,597 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-05-10 22:55:38,248 basehttp 154 "GET /xadmin/home/navinfo/?_cols=name.link.is_show.opt HTTP/1.1" 200 31795
+INFO 2019-05-10 22:55:38,460 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
