@@ -102,7 +102,7 @@ WSGI_APPLICATION = 'luffy.utils.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/2.1/ref/settings/#databases
-
+# 增减点内容
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.mysql",
