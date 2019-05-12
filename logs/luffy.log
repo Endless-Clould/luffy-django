@@ -626,3 +626,387 @@ INFO 2019-05-11 20:42:51,820 basehttp 154 "GET /api/nav/ HTTP/1.1" 200 148
 INFO 2019-05-11 20:42:51,891 basehttp 154 "GET /api/banner/ HTTP/1.1" 200 253
 INFO 2019-05-11 20:43:00,451 basehttp 154 "GET /api/nav/ HTTP/1.1" 200 148
 INFO 2019-05-11 20:43:00,476 basehttp 154 "GET /api/banner/ HTTP/1.1" 200 253
+WARNING 2019-05-12 11:04:51,850 log 228 Not Found: /
+WARNING 2019-05-12 11:04:51,851 basehttp 154 "GET / HTTP/1.1" 404 2155
+INFO 2019-05-12 11:05:34,684 basehttp 154 "GET /api/banner/ HTTP/1.1" 200 253
+INFO 2019-05-12 11:05:34,726 basehttp 154 "GET /api/nav/ HTTP/1.1" 200 148
+INFO 2019-05-12 11:05:34,789 basehttp 154 "GET /media/banner/2.png HTTP/1.1" 304 0
+INFO 2019-05-12 11:05:34,793 basehttp 154 "GET /media/banner/3.png HTTP/1.1" 304 0
+INFO 2019-05-12 11:05:34,795 basehttp 154 "GET /media/banner/1.png HTTP/1.1" 304 0
+INFO 2019-05-12 11:08:42,992 basehttp 154 "GET /api/nav/ HTTP/1.1" 200 148
+INFO 2019-05-12 11:08:43,014 basehttp 154 "GET /api/banner/ HTTP/1.1" 200 253
+INFO 2019-05-12 11:08:47,914 basehttp 154 "GET /api/banner/ HTTP/1.1" 200 253
+INFO 2019-05-12 11:08:47,917 basehttp 154 "GET /api/nav/ HTTP/1.1" 200 148
+INFO 2019-05-12 11:25:49,748 basehttp 154 "GET /api/nav/ HTTP/1.1" 200 148
+INFO 2019-05-12 11:25:49,778 basehttp 154 "GET /api/banner/ HTTP/1.1" 200 253
+INFO 2019-05-12 11:25:49,828 basehttp 154 "GET /media/banner/3.png HTTP/1.1" 304 0
+INFO 2019-05-12 11:25:49,835 basehttp 154 "GET /media/banner/2.png HTTP/1.1" 304 0
+INFO 2019-05-12 11:25:49,861 basehttp 154 "GET /media/banner/1.png HTTP/1.1" 304 0
+INFO 2019-05-12 11:25:54,312 basehttp 154 "GET /api/nav/ HTTP/1.1" 200 148
+INFO 2019-05-12 11:25:58,744 basehttp 154 "GET /api/nav/ HTTP/1.1" 200 148
+INFO 2019-05-12 11:25:58,799 basehttp 154 "GET /api/banner/ HTTP/1.1" 200 253
+INFO 2019-05-12 11:26:00,862 basehttp 154 "GET /api/nav/ HTTP/1.1" 200 148
+INFO 2019-05-12 11:26:03,532 basehttp 154 "GET /api/nav/ HTTP/1.1" 200 148
+INFO 2019-05-12 11:26:03,534 basehttp 154 "GET /api/banner/ HTTP/1.1" 200 253
+INFO 2019-05-12 11:26:04,815 basehttp 154 "GET /api/nav/ HTTP/1.1" 200 148
+INFO 2019-05-12 11:26:12,662 basehttp 154 "GET /api/nav/ HTTP/1.1" 200 148
+INFO 2019-05-12 11:26:12,679 basehttp 154 "GET /api/banner/ HTTP/1.1" 200 253
+INFO 2019-05-12 11:27:09,456 basehttp 154 "GET /api/nav/ HTTP/1.1" 200 148
+INFO 2019-05-12 11:27:09,461 basehttp 154 "GET /api/banner/ HTTP/1.1" 200 253
+INFO 2019-05-12 11:27:10,611 basehttp 154 "GET /api/nav/ HTTP/1.1" 200 148
+INFO 2019-05-12 11:27:51,737 basehttp 154 "GET /api/nav/ HTTP/1.1" 200 148
+INFO 2019-05-12 11:27:51,757 basehttp 154 "GET /api/banner/ HTTP/1.1" 200 253
+INFO 2019-05-12 11:27:56,354 basehttp 154 "GET /api/nav/ HTTP/1.1" 200 148
+INFO 2019-05-12 11:27:57,960 basehttp 154 "GET /api/nav/ HTTP/1.1" 200 148
+INFO 2019-05-12 11:27:57,962 basehttp 154 "GET /api/banner/ HTTP/1.1" 200 253
+INFO 2019-05-12 11:27:59,727 basehttp 154 "GET /api/nav/ HTTP/1.1" 200 148
+INFO 2019-05-12 11:28:03,730 basehttp 154 "GET /api/nav/ HTTP/1.1" 200 148
+INFO 2019-05-12 11:28:03,792 basehttp 154 "GET /api/banner/ HTTP/1.1" 200 253
+INFO 2019-05-12 11:29:42,681 basehttp 154 "GET /api/nav/ HTTP/1.1" 200 148
+INFO 2019-05-12 11:30:49,675 basehttp 154 "GET /api/nav/ HTTP/1.1" 200 148
+INFO 2019-05-12 11:34:30,535 basehttp 154 "GET /api/nav/ HTTP/1.1" 200 148
+WARNING 2019-05-12 12:14:49,323 log 228 Not Found: /api/
+WARNING 2019-05-12 12:14:49,326 basehttp 154 "GET /api/ HTTP/1.1" 404 2394
+WARNING 2019-05-12 12:14:58,661 log 228 Not Found: /api/ banner/
+WARNING 2019-05-12 12:14:58,663 basehttp 154 "GET /api/%20banner/ HTTP/1.1" 404 2420
+INFO 2019-05-12 12:15:03,377 basehttp 154 "GET /api/banner/ HTTP/1.1" 200 9648
+INFO 2019-05-12 12:15:03,411 basehttp 154 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2019-05-12 12:15:03,439 basehttp 154 "GET /static/rest_framework/js/jquery-3.3.1.min.js HTTP/1.1" 200 86927
+INFO 2019-05-12 12:15:03,459 basehttp 154 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+INFO 2019-05-12 12:15:03,474 basehttp 154 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+INFO 2019-05-12 12:15:03,476 basehttp 154 "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2019-05-12 12:15:03,499 basehttp 154 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 37608
+INFO 2019-05-12 12:15:03,520 basehttp 154 "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+INFO 2019-05-12 12:15:03,524 basehttp 154 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1719
+INFO 2019-05-12 12:15:03,530 basehttp 154 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2019-05-12 12:15:03,546 basehttp 154 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2019-05-12 12:15:03,552 basehttp 154 "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1131
+INFO 2019-05-12 12:16:18,558 basehttp 154 "GET /api/banner/ HTTP/1.1" 200 9648
+WARNING 2019-05-12 13:31:31,247 log 228 Not Found: /
+WARNING 2019-05-12 13:31:31,248 basehttp 154 "GET / HTTP/1.1" 404 2155
+INFO 2019-05-12 13:31:38,884 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 4354
+INFO 2019-05-12 13:31:38,933 basehttp 154 "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 200 1888
+INFO 2019-05-12 13:31:38,955 basehttp 154 "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 200 126432
+INFO 2019-05-12 13:31:39,001 basehttp 154 "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 200 240196
+INFO 2019-05-12 13:31:39,019 basehttp 154 "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 200 175
+INFO 2019-05-12 13:31:39,026 basehttp 154 "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 200 3401
+INFO 2019-05-12 13:31:39,038 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.effect.js HTTP/1.1" 200 31918
+INFO 2019-05-12 13:31:39,056 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.themes.js HTTP/1.1" 200 3489
+INFO 2019-05-12 13:31:39,111 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 200 15069
+INFO 2019-05-12 13:31:39,165 basehttp 154 "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 200 4361
+INFO 2019-05-12 13:31:39,166 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 200 8195
+INFO 2019-05-12 13:31:39,181 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 200 4561
+INFO 2019-05-12 13:31:39,203 basehttp 154 "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 200 58327
+INFO 2019-05-12 13:31:39,210 basehttp 154 "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 200 4165
+INFO 2019-05-12 13:31:39,211 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 4361
+INFO 2019-05-12 13:31:39,224 basehttp 154 "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 200 8376
+INFO 2019-05-12 13:31:39,226 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 200 42543
+INFO 2019-05-12 13:31:39,234 basehttp 154 "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 200 21658
+INFO 2019-05-12 13:31:39,394 basehttp 154 "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 200 44432
+INFO 2019-05-12 13:31:43,606 basehttp 154 "POST /xadmin/ HTTP/1.1" 200 4591
+INFO 2019-05-12 13:31:43,716 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 4361
+WARNING 2019-05-12 13:31:55,440 log 228 Not Found: /
+WARNING 2019-05-12 13:31:55,445 basehttp 154 "GET / HTTP/1.1" 404 2155
+INFO 2019-05-12 13:32:02,188 basehttp 154 "GET /api/nav/ HTTP/1.1" 200 2
+INFO 2019-05-12 13:32:02,246 basehttp 154 "GET /api/banner/ HTTP/1.1" 200 2
+INFO 2019-05-12 13:32:12,162 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 4354
+INFO 2019-05-12 13:32:12,278 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 4361
+INFO 2019-05-12 13:43:20,479 basehttp 154 "POST /xadmin/ HTTP/1.1" 302 0
+INFO 2019-05-12 13:43:23,107 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 15518
+INFO 2019-05-12 13:43:23,155 basehttp 154 "GET /static/xadmin/css/xadmin.page.dashboard.css HTTP/1.1" 200 790
+INFO 2019-05-12 13:43:23,234 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-05-12 13:43:23,278 basehttp 154 "GET /static/xadmin/js/xadmin.page.dashboard.js HTTP/1.1" 200 3208
+INFO 2019-05-12 13:43:23,319 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.1" 200 1000
+INFO 2019-05-12 13:43:29,138 basehttp 154 "GET /xadmin/home/bannerinfo/ HTTP/1.1" 200 25472
+INFO 2019-05-12 13:43:29,183 basehttp 154 "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 200 3763
+INFO 2019-05-12 13:43:29,221 basehttp 154 "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 200 1948
+INFO 2019-05-12 13:43:29,222 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 200 529
+INFO 2019-05-12 13:43:29,238 basehttp 154 "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 200 1105
+INFO 2019-05-12 13:43:29,274 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-05-12 13:43:29,330 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 200 1990
+INFO 2019-05-12 13:43:29,368 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 200 2319
+INFO 2019-05-12 13:43:31,921 basehttp 154 "GET /xadmin/home/bannerinfo/add/ HTTP/1.1" 200 20870
+INFO 2019-05-12 13:43:31,970 basehttp 154 "GET /static/xadmin/vendor/bootstrap-image-gallery/css/bootstrap-image-gallery.css HTTP/1.1" 200 3339
+INFO 2019-05-12 13:43:32,019 basehttp 154 "GET /static/xadmin/vendor/bootstrap-image-gallery/js/bootstrap-image-gallery.js HTTP/1.1" 200 15611
+INFO 2019-05-12 13:43:32,062 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-05-12 13:43:32,110 basehttp 154 "GET /static/xadmin/vendor/load-image/load-image.js HTTP/1.1" 200 8309
+INFO 2019-05-12 13:52:47,465 basehttp 154 "POST /xadmin/home/bannerinfo/add/ HTTP/1.1" 302 0
+INFO 2019-05-12 13:52:47,807 basehttp 154 "GET /xadmin/home/bannerinfo/ HTTP/1.1" 200 29496
+INFO 2019-05-12 13:52:47,881 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.1" 200 4198
+INFO 2019-05-12 13:52:47,916 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-05-12 13:52:51,708 basehttp 154 "GET /xadmin/home/bannerinfo/add/ HTTP/1.1" 200 20870
+INFO 2019-05-12 13:52:51,825 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-05-12 13:53:14,348 basehttp 154 "POST /xadmin/home/bannerinfo/add/ HTTP/1.1" 302 0
+INFO 2019-05-12 13:53:14,788 basehttp 154 "GET /xadmin/home/bannerinfo/ HTTP/1.1" 200 30086
+INFO 2019-05-12 13:53:14,871 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-05-12 13:53:17,508 basehttp 154 "GET /xadmin/home/bannerinfo/1/update/ HTTP/1.1" 200 21555
+INFO 2019-05-12 13:53:17,578 basehttp 154 "GET /media/banner/1_xri3iAd.png HTTP/1.1" 200 402656
+INFO 2019-05-12 13:53:17,579 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-05-12 13:53:20,208 basehttp 154 "POST /xadmin/home/bannerinfo/1/update/ HTTP/1.1" 302 0
+INFO 2019-05-12 13:53:20,576 basehttp 154 "GET /xadmin/home/bannerinfo/ HTTP/1.1" 200 30020
+INFO 2019-05-12 13:53:20,667 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-05-12 13:54:04,555 basehttp 154 "GET /api/nav/ HTTP/1.1" 200 2
+INFO 2019-05-12 13:54:04,559 basehttp 154 "GET /api/banner/ HTTP/1.1" 200 371
+INFO 2019-05-12 13:54:04,658 basehttp 154 "GET /media/banner/2_r6bMsmA.png HTTP/1.1" 200 548211
+INFO 2019-05-12 13:54:04,684 basehttp 154 "GET /media/banner/1_xri3iAd.png HTTP/1.1" 304 0
+INFO 2019-05-12 13:54:37,592 basehttp 154 "GET /xadmin/home/navinfo/ HTTP/1.1" 200 25283
+INFO 2019-05-12 13:54:37,668 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-05-12 13:54:39,827 basehttp 154 "GET /xadmin/home/navinfo/add/ HTTP/1.1" 200 19580
+INFO 2019-05-12 13:54:39,882 basehttp 154 "GET /static/xadmin/vendor/select2/select2.css HTTP/1.1" 200 19226
+INFO 2019-05-12 13:54:39,921 basehttp 154 "GET /static/xadmin/vendor/select2/select2.js HTTP/1.1" 200 104906
+INFO 2019-05-12 13:54:39,937 basehttp 154 "GET /static/xadmin/js/xadmin.widget.select.js HTTP/1.1" 200 1344
+INFO 2019-05-12 13:54:39,942 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.css HTTP/1.1" 200 8425
+INFO 2019-05-12 13:54:39,972 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.bootstrap3.css HTTP/1.1" 200 10602
+INFO 2019-05-12 13:54:39,986 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-05-12 13:54:40,003 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.js HTTP/1.1" 200 98602
+INFO 2019-05-12 13:54:40,021 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 200 694
+INFO 2019-05-12 13:54:54,163 basehttp 154 "POST /xadmin/home/navinfo/add/ HTTP/1.1" 302 0
+INFO 2019-05-12 13:54:54,485 basehttp 154 "GET /xadmin/home/navinfo/ HTTP/1.1" 200 29350
+INFO 2019-05-12 13:54:54,543 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-05-12 13:54:57,603 basehttp 154 "GET /xadmin/home/navinfo/add/ HTTP/1.1" 200 19580
+INFO 2019-05-12 13:54:57,669 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-05-12 13:55:00,496 basehttp 154 "GET /xadmin/home/navinfo/ HTTP/1.1" 200 29060
+INFO 2019-05-12 13:55:00,565 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-05-12 13:55:03,204 basehttp 154 "GET /xadmin/home/navinfo/add/ HTTP/1.1" 200 19580
+INFO 2019-05-12 13:55:03,265 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-05-12 13:55:29,975 basehttp 154 "POST /xadmin/home/navinfo/add/ HTTP/1.1" 302 0
+INFO 2019-05-12 13:55:30,343 basehttp 154 "GET /xadmin/home/navinfo/ HTTP/1.1" 200 29952
+INFO 2019-05-12 13:55:30,426 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-05-12 13:55:56,090 basehttp 154 "GET /api/banner/ HTTP/1.1" 200 371
+INFO 2019-05-12 13:55:56,094 basehttp 154 "GET /api/nav/ HTTP/1.1" 200 144
+INFO 2019-05-12 13:55:56,147 basehttp 154 "GET /media/banner/2_r6bMsmA.png HTTP/1.1" 304 0
+INFO 2019-05-12 13:55:56,162 basehttp 154 "GET /media/banner/1_xri3iAd.png HTTP/1.1" 304 0
+INFO 2019-05-12 13:57:52,000 basehttp 154 "GET /xadmin/xadmin/log/ HTTP/1.1" 200 40785
+INFO 2019-05-12 13:57:52,080 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-05-12 13:57:52,083 basehttp 154 "GET /static/xadmin/vendor/bootstrap-datepicker/css/datepicker.css HTTP/1.1" 200 10225
+INFO 2019-05-12 13:57:52,119 basehttp 154 "GET /static/xadmin/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js HTTP/1.1" 200 32656
+INFO 2019-05-12 13:57:52,138 basehttp 154 "GET /static/xadmin/js/xadmin.widget.datetime.js HTTP/1.1" 200 2979
+WARNING 2019-05-12 13:58:51,403 log 228 Not Found: /
+WARNING 2019-05-12 13:58:51,404 basehttp 154 "GET / HTTP/1.1" 404 2155
+WARNING 2019-05-12 13:58:51,825 log 228 Not Found: /favicon.ico
+WARNING 2019-05-12 13:58:51,828 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2206
+WARNING 2019-05-12 13:59:01,549 log 228 Not Found: /api/
+WARNING 2019-05-12 13:59:01,551 basehttp 154 "GET /api/ HTTP/1.1" 404 2394
+INFO 2019-05-12 13:59:19,233 basehttp 154 "GET /api/banner/ HTTP/1.1" 200 10688
+INFO 2019-05-12 13:59:19,404 basehttp 154 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2019-05-12 13:59:19,413 basehttp 154 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+INFO 2019-05-12 13:59:19,425 basehttp 154 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2019-05-12 13:59:19,438 basehttp 154 "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1131
+INFO 2019-05-12 13:59:19,465 basehttp 154 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+INFO 2019-05-12 13:59:19,477 basehttp 154 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1719
+INFO 2019-05-12 13:59:19,495 basehttp 154 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 37608
+INFO 2019-05-12 13:59:19,509 basehttp 154 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2019-05-12 13:59:19,518 basehttp 154 "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2019-05-12 13:59:19,545 basehttp 154 "GET /static/rest_framework/js/jquery-3.3.1.min.js HTTP/1.1" 200 86927
+INFO 2019-05-12 13:59:19,587 basehttp 154 "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+WARNING 2019-05-12 15:13:38,440 log 228 Not Found: /favicon.ico
+WARNING 2019-05-12 15:13:38,444 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2312
+WARNING 2019-05-12 15:13:42,409 log 228 Not Found: /
+WARNING 2019-05-12 15:13:42,412 basehttp 154 "GET / HTTP/1.1" 404 2261
+WARNING 2019-05-12 15:13:49,120 log 228 Not Found: /users/
+WARNING 2019-05-12 15:13:49,122 basehttp 154 "GET /users/ HTTP/1.1" 404 2364
+INFO 2019-05-12 15:13:58,347 basehttp 154 "GET /users/login HTTP/1.1" 301 0
+ERROR 2019-05-12 15:13:58,613 log 228 Internal Server Error: /users/login/
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 169, in http_method_not_allowed
+    raise exceptions.MethodNotAllowed(request.method)
+rest_framework.exceptions.MethodNotAllowed: 方法 “GET” 不被允许。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 452, in handle_exception
+    response = exception_handler(exc, context)
+  File "C:\Users\Administrator\PycharmProjects\luffy\luffy\utils\exceptions.py", line 37, in custom_exception_handler
+    if response is None:
+UnboundLocalError: local variable 'response' referenced before assignment
+ERROR 2019-05-12 15:13:58,627 basehttp 154 "GET /users/login/ HTTP/1.1" 500 96969
+WARNING 2019-05-12 15:16:44,546 log 228 Bad Request: /users/login/
+WARNING 2019-05-12 15:16:44,548 basehttp 154 "POST /users/login/ HTTP/1.1" 400 81
+INFO 2019-05-12 15:18:29,677 basehttp 154 "POST /users/login/ HTTP/1.1" 200 171
+INFO 2019-05-12 15:28:29,666 basehttp 154 "GET /xadmin/xadmin/log/ HTTP/1.1" 200 40785
+INFO 2019-05-12 15:28:29,714 basehttp 154 "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+INFO 2019-05-12 15:28:29,717 basehttp 154 "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 304 0
+INFO 2019-05-12 15:28:29,720 basehttp 154 "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 304 0
+INFO 2019-05-12 15:28:29,742 basehttp 154 "GET /static/xadmin/vendor/bootstrap-datepicker/css/datepicker.css HTTP/1.1" 304 0
+INFO 2019-05-12 15:28:29,790 basehttp 154 "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 304 0
+INFO 2019-05-12 15:28:29,796 basehttp 154 "GET /static/xadmin/css/xadmin.form.css HTTP/1.1" 304 0
+INFO 2019-05-12 15:28:29,859 basehttp 154 "GET /static/xadmin/vendor/select2/select2.css HTTP/1.1" 304 0
+INFO 2019-05-12 15:28:29,867 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.css HTTP/1.1" 304 0
+INFO 2019-05-12 15:28:29,875 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.bootstrap3.css HTTP/1.1" 304 0
+INFO 2019-05-12 15:28:29,880 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 304 0
+INFO 2019-05-12 15:28:29,883 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 304 0
+INFO 2019-05-12 15:28:29,891 basehttp 154 "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 304 0
+INFO 2019-05-12 15:28:29,895 basehttp 154 "GET /static/xadmin/js/xadmin.widget.datetime.js HTTP/1.1" 304 0
+INFO 2019-05-12 15:28:29,907 basehttp 154 "GET /static/xadmin/vendor/selectize/selectize.js HTTP/1.1" 304 0
+INFO 2019-05-12 15:28:29,912 basehttp 154 "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2019-05-12 15:28:29,927 basehttp 154 "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+INFO 2019-05-12 15:28:29,930 basehttp 154 "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 304 0
+INFO 2019-05-12 15:28:29,933 basehttp 154 "GET /static/xadmin/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js HTTP/1.1" 304 0
+INFO 2019-05-12 15:28:29,935 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-05-12 15:28:29,961 basehttp 154 "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 304 0
+INFO 2019-05-12 15:28:29,969 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 304 0
+INFO 2019-05-12 15:28:29,973 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.themes.js HTTP/1.1" 304 0
+INFO 2019-05-12 15:28:29,984 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 304 0
+INFO 2019-05-12 15:28:30,000 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.details.js HTTP/1.1" 304 0
+INFO 2019-05-12 15:28:30,015 basehttp 154 "GET /static/xadmin/vendor/select2/select2_locale_zh-Hans.js HTTP/1.1" 304 0
+INFO 2019-05-12 15:28:30,026 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.bookmark.js HTTP/1.1" 304 0
+INFO 2019-05-12 15:28:30,029 basehttp 154 "GET /static/xadmin/js/xadmin.widget.select.js HTTP/1.1" 304 0
+INFO 2019-05-12 15:28:30,041 basehttp 154 "GET /static/xadmin/js/xadmin.page.list.js HTTP/1.1" 304 0
+INFO 2019-05-12 15:28:30,046 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.effect.js HTTP/1.1" 304 0
+INFO 2019-05-12 15:28:30,056 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.1" 304 0
+INFO 2019-05-12 15:28:30,059 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.filters.js HTTP/1.1" 304 0
+INFO 2019-05-12 15:28:30,060 basehttp 154 "GET /static/xadmin/vendor/select2/select2.js HTTP/1.1" 304 0
+INFO 2019-05-12 15:28:30,068 basehttp 154 "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 304 0
+INFO 2019-05-12 15:28:30,077 basehttp 154 "GET /static/xadmin/js/xadmin.page.form.js HTTP/1.1" 304 0
+INFO 2019-05-12 15:43:30,106 basehttp 154 "OPTIONS /users/login/ HTTP/1.1" 200 0
+INFO 2019-05-12 15:43:30,839 basehttp 154 "POST /users/login/ HTTP/1.1" 200 171
+INFO 2019-05-12 16:07:07,130 basehttp 154 "OPTIONS /users/login/ HTTP/1.1" 200 0
+INFO 2019-05-12 16:07:07,927 basehttp 154 "POST /users/login/ HTTP/1.1" 200 171
+INFO 2019-05-12 16:07:49,256 basehttp 154 "GET /api/nav/ HTTP/1.1" 200 144
+INFO 2019-05-12 16:07:49,282 basehttp 154 "GET /api/banner/ HTTP/1.1" 200 371
+INFO 2019-05-12 16:07:50,799 basehttp 154 "GET /media/banner/1_xri3iAd.png HTTP/1.1" 200 402656
+INFO 2019-05-12 16:07:50,819 basehttp 154 "GET /media/banner/2_r6bMsmA.png HTTP/1.1" 200 548211
+ERROR 2019-05-12 16:10:06,679 log 228 Internal Server Error: /users/login/
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 169, in http_method_not_allowed
+    raise exceptions.MethodNotAllowed(request.method)
+rest_framework.exceptions.MethodNotAllowed: 方法 “GET” 不被允许。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 452, in handle_exception
+    response = exception_handler(exc, context)
+  File "C:\Users\Administrator\PycharmProjects\luffy\luffy\utils\exceptions.py", line 37, in custom_exception_handler
+    if response is None:
+UnboundLocalError: local variable 'response' referenced before assignment
+ERROR 2019-05-12 16:10:06,704 basehttp 154 "GET /users/login/ HTTP/1.1" 500 97104
+INFO 2019-05-12 16:10:29,094 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 4354
+INFO 2019-05-12 16:10:29,408 basehttp 154 "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 200 126432
+INFO 2019-05-12 16:10:29,417 basehttp 154 "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 200 1888
+INFO 2019-05-12 16:10:29,421 basehttp 154 "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 200 21658
+INFO 2019-05-12 16:10:29,446 basehttp 154 "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 200 8376
+INFO 2019-05-12 16:10:29,472 basehttp 154 "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 200 4361
+INFO 2019-05-12 16:10:29,489 basehttp 154 "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 200 240196
+INFO 2019-05-12 16:10:29,535 basehttp 154 "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 200 175
+INFO 2019-05-12 16:10:29,547 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 200 8195
+INFO 2019-05-12 16:10:29,559 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 200 15069
+INFO 2019-05-12 16:10:29,570 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 200 4561
+INFO 2019-05-12 16:10:29,585 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 200 42543
+INFO 2019-05-12 16:10:29,600 basehttp 154 "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 200 58327
+INFO 2019-05-12 16:10:29,619 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 4361
+INFO 2019-05-12 16:10:29,619 basehttp 154 "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 200 3401
+INFO 2019-05-12 16:10:29,632 basehttp 154 "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 200 4165
+INFO 2019-05-12 16:10:29,641 basehttp 154 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.effect.js HTTP/1.1" 200 31918
+INFO 2019-05-12 16:10:29,645 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.themes.js HTTP/1.1" 200 3489
+INFO 2019-05-12 16:10:29,830 basehttp 154 "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 200 44432
+INFO 2019-05-12 16:10:35,919 basehttp 154 "POST /xadmin/ HTTP/1.1" 302 0
+INFO 2019-05-12 16:10:36,140 basehttp 154 "GET /xadmin/ HTTP/1.1" 200 15518
+INFO 2019-05-12 16:10:36,431 basehttp 154 "GET /static/xadmin/css/xadmin.page.dashboard.css HTTP/1.1" 200 790
+INFO 2019-05-12 16:10:36,456 basehttp 154 "GET /static/xadmin/js/xadmin.page.dashboard.js HTTP/1.1" 200 3208
+INFO 2019-05-12 16:10:36,465 basehttp 154 "GET /xadmin/jsi18n/ HTTP/1.1" 200 7684
+INFO 2019-05-12 16:10:36,474 basehttp 154 "GET /static/xadmin/js/xadmin.plugin.portal.js HTTP/1.1" 200 1000
+INFO 2019-05-12 16:13:31,763 basehttp 154 "OPTIONS /users/login/ HTTP/1.1" 200 0
+INFO 2019-05-12 16:13:32,479 basehttp 154 "POST /users/login/ HTTP/1.1" 200 171
+INFO 2019-05-12 16:13:32,666 basehttp 154 "GET /api/nav/ HTTP/1.1" 200 144
+INFO 2019-05-12 16:13:32,767 basehttp 154 "GET /api/banner/ HTTP/1.1" 200 371
+INFO 2019-05-12 16:13:46,026 basehttp 154 "GET /api/nav/ HTTP/1.1" 200 144
+INFO 2019-05-12 16:13:46,042 basehttp 154 "GET /api/banner/ HTTP/1.1" 200 371
+INFO 2019-05-12 16:13:47,134 basehttp 154 "GET /media/banner/1_xri3iAd.png HTTP/1.1" 200 402656
+INFO 2019-05-12 16:13:47,138 basehttp 154 "GET /media/banner/2_r6bMsmA.png HTTP/1.1" 200 548211
+INFO 2019-05-12 16:15:44,541 basehttp 154 "GET /api/nav/ HTTP/1.1" 200 144
+INFO 2019-05-12 16:15:44,551 basehttp 154 "GET /api/banner/ HTTP/1.1" 200 371
+INFO 2019-05-12 16:15:45,557 basehttp 154 "GET /media/banner/1_xri3iAd.png HTTP/1.1" 200 402656
+INFO 2019-05-12 16:15:45,562 basehttp 154 "GET /media/banner/2_r6bMsmA.png HTTP/1.1" 200 548211
+INFO 2019-05-12 16:20:40,592 basehttp 154 "POST /users/login/ HTTP/1.1" 200 171
+INFO 2019-05-12 16:20:40,822 basehttp 154 "GET /api/nav/ HTTP/1.1" 200 144
+INFO 2019-05-12 16:20:40,834 basehttp 154 "GET /api/banner/ HTTP/1.1" 200 371
+INFO 2019-05-12 16:22:43,611 basehttp 154 "GET /api/banner/ HTTP/1.1" 200 371
+INFO 2019-05-12 16:22:43,619 basehttp 154 "GET /api/nav/ HTTP/1.1" 200 144
+INFO 2019-05-12 16:22:44,584 basehttp 154 "GET /media/banner/2_r6bMsmA.png HTTP/1.1" 200 548211
+INFO 2019-05-12 16:22:44,588 basehttp 154 "GET /media/banner/1_xri3iAd.png HTTP/1.1" 200 402656
+INFO 2019-05-12 16:30:09,832 basehttp 154 "OPTIONS /users/login/ HTTP/1.1" 200 0
+INFO 2019-05-12 16:30:11,143 basehttp 154 "POST /users/login/ HTTP/1.1" 200 171
+INFO 2019-05-12 16:30:11,704 basehttp 154 "GET /api/nav/ HTTP/1.1" 200 144
+INFO 2019-05-12 16:30:11,927 basehttp 154 "GET /api/banner/ HTTP/1.1" 200 371
+INFO 2019-05-12 16:30:12,147 basehttp 154 "GET /media/banner/2_r6bMsmA.png HTTP/1.1" 200 548211
+INFO 2019-05-12 16:30:12,157 basehttp 154 "GET /media/banner/1_xri3iAd.png HTTP/1.1" 200 402656
+INFO 2019-05-12 16:34:07,862 basehttp 154 "OPTIONS /users/login/ HTTP/1.1" 200 0
+INFO 2019-05-12 16:34:08,610 basehttp 154 "POST /users/login/ HTTP/1.1" 200 171
+INFO 2019-05-12 16:34:08,844 basehttp 154 "GET /api/nav/ HTTP/1.1" 200 144
+INFO 2019-05-12 16:34:08,857 basehttp 154 "GET /api/banner/ HTTP/1.1" 200 371
+WARNING 2019-05-12 17:35:45,071 log 228 Not Found: /
+WARNING 2019-05-12 17:35:45,076 basehttp 154 "GET / HTTP/1.1" 404 2261
+WARNING 2019-05-12 17:35:45,110 log 228 Not Found: /favicon.ico
+WARNING 2019-05-12 17:35:45,115 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2312
+WARNING 2019-05-12 17:35:51,407 log 228 Not Found: /users/
+WARNING 2019-05-12 17:35:51,410 basehttp 154 "GET /users/ HTTP/1.1" 404 2364
+ERROR 2019-05-12 17:36:02,469 log 228 Internal Server Error: /users/login/
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 169, in http_method_not_allowed
+    raise exceptions.MethodNotAllowed(request.method)
+rest_framework.exceptions.MethodNotAllowed: 方法 “GET” 不被允许。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 452, in handle_exception
+    response = exception_handler(exc, context)
+  File "C:\Users\Administrator\PycharmProjects\luffy\luffy\utils\exceptions.py", line 37, in custom_exception_handler
+    if response is None:
+UnboundLocalError: local variable 'response' referenced before assignment
+ERROR 2019-05-12 17:36:02,480 basehttp 154 "GET /users/login/ HTTP/1.1" 500 96542
+WARNING 2019-05-12 17:36:37,515 log 228 Not Found: /users/login/http://localhost:8000/users/login/
+WARNING 2019-05-12 17:36:37,516 basehttp 154 "POST /users/login/http://localhost:8000/users/login/ HTTP/1.1" 404 2485
+INFO 2019-05-12 17:37:10,017 basehttp 154 "POST /users/login/ HTTP/1.1" 200 171
+INFO 2019-05-12 17:49:23,415 basehttp 154 "GET /api/nav/ HTTP/1.1" 200 144
+INFO 2019-05-12 17:49:23,423 basehttp 154 "GET /api/banner/ HTTP/1.1" 200 371
+INFO 2019-05-12 17:49:24,058 basehttp 154 "GET /media/banner/2_r6bMsmA.png HTTP/1.1" 200 548211
+INFO 2019-05-12 17:49:24,064 basehttp 154 "GET /media/banner/1_xri3iAd.png HTTP/1.1" 200 402656
+INFO 2019-05-12 17:49:32,019 basehttp 154 "OPTIONS /users/login/ HTTP/1.1" 200 0
+INFO 2019-05-12 17:49:32,404 basehttp 154 "POST /users/login/ HTTP/1.1" 200 171
+INFO 2019-05-12 17:49:32,587 basehttp 154 "GET /api/nav/ HTTP/1.1" 200 144
+INFO 2019-05-12 17:49:32,599 basehttp 154 "GET /api/banner/ HTTP/1.1" 200 371
