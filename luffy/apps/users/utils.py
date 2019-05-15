@@ -45,13 +45,14 @@ import re
 
 def get_user_by_account(account):
     """根据账号信息获取用户模型"""
+    print(account,"++++++++++++++=")
     try:
-        # if re.match('^1[3-9]\d{9}$', account):
-        #     # 手机号
-        #     user = User.objects.get(mobile=account)
-        # else:
-        #     # 用户名
-        #     user = User.objects.get(username=account)
+        if re.match('^1[3-9]\d{9}$', account):
+            # 手机号
+            user = User.objects.get(mobile=account)
+        else:
+            # 用户名
+            user = User.objects.get(username=account)
 
         user = User.objects.get(Q(mobile=account) | Q(username=account))
 

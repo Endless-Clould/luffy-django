@@ -39,9 +39,9 @@ https://docs.djangoproject.com/en/2.1/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/2.1/ref/settings/
 """
-
 import os
 import sys
+from django_redis import get_redis_connection
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -225,5 +225,62 @@ JWT_AUTH = {
     'JWT_EXPIRATION_DELTA': datetime.timedelta(days=1),
 'JWT_RESPONSE_PAYLOAD_HANDLER': 'users.utils.jwt_response_payload_handler',
 }
+AUTHENTICATION_BACKENDS = [
+    'users.utils.UsernameMobileAuthBackend',
+]
+
+PC_GEETEST_ID = '5f4ab1914455506edffaffd4da37fea5'
+PC_GEETEST_KEY ='460e13a49d687e5e44e25c383f0473a6'
 
 
+# 设置redis缓存
+CACHES = {
+    # 默认缓存
+    "default": {
+        "BACKEND": "django_redis.cache.RedisCache",
+        # 项目上线时,需要调整这里的路径
+        "LOCATION": "redis://127.0.0.1:6379/0",
+
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient",
+        }
+    },
+    # 提供给xadmin或者admin的session存储
+    "session": {
+        "BACKEND": "django_redis.cache.RedisCache",
+        "LOCATION": "redis://127.0.0.1:6379/1",
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient",
+        }
+    },
+    # 提供存储短信验证码
+    "sms_code":{
+        "BACKEND": "django_redis.cache.RedisCache",
+        "LOCATION": "redis://127.0.0.1:6379/2",
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient",
+        }
+    }
+}
+
+# 设置xadmin用户登录时,登录信息session保存到redis
+SESSION_ENGINE = "django.contrib.sessions.backends.cache"
+SESSION_CACHE_ALIAS = "session"
+
+
+
+
+redis_conn = get_redis_connection("default")
+
+# 短信配置
+# 主账号
+SMS_ACCOUNTSID = '8a216da86ab0b4d2016ab3e05fe400b1'
+
+# 主账号Token
+SMS_ACCOUNTTOKEN = '5f0ba4296bbb4e248aa77253ccfe0b31'
+
+# 创建应用的APPID
+SMS_APPID = '8a216da86ab0b4d2016ab3e0603900b7'
+
+# 说明：请求地址，生产环境配置成app.cloopen.com
+SMS_SERVERIP = 'sandboxapp.cloopen.com'

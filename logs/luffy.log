@@ -1010,3 +1010,1367 @@ INFO 2019-05-12 17:49:32,019 basehttp 154 "OPTIONS /users/login/ HTTP/1.1" 200 0
 INFO 2019-05-12 17:49:32,404 basehttp 154 "POST /users/login/ HTTP/1.1" 200 171
 INFO 2019-05-12 17:49:32,587 basehttp 154 "GET /api/nav/ HTTP/1.1" 200 144
 INFO 2019-05-12 17:49:32,599 basehttp 154 "GET /api/banner/ HTTP/1.1" 200 371
+INFO 2019-05-13 19:13:57,796 basehttp 154 "GET /api/nav/ HTTP/1.1" 200 144
+INFO 2019-05-13 19:13:57,826 basehttp 154 "GET /api/banner/ HTTP/1.1" 200 371
+INFO 2019-05-13 19:13:57,925 basehttp 154 "GET /media/banner/1_xri3iAd.png HTTP/1.1" 200 402656
+INFO 2019-05-13 19:13:57,953 basehttp 154 "GET /media/banner/2_r6bMsmA.png HTTP/1.1" 200 548211
+INFO 2019-05-13 19:14:55,037 basehttp 154 "GET /api/nav/ HTTP/1.1" 200 144
+INFO 2019-05-13 19:14:55,050 basehttp 154 "GET /api/banner/ HTTP/1.1" 200 371
+INFO 2019-05-13 19:43:29,030 basehttp 154 "GET /api/nav/ HTTP/1.1" 200 144
+INFO 2019-05-13 19:43:29,393 basehttp 154 "GET /api/banner/ HTTP/1.1" 200 371
+INFO 2019-05-13 19:43:29,719 basehttp 154 "GET /media/banner/1_xri3iAd.png HTTP/1.1" 200 402656
+INFO 2019-05-13 19:43:29,721 basehttp 154 "GET /media/banner/2_r6bMsmA.png HTTP/1.1" 200 548211
+INFO 2019-05-13 19:47:19,331 basehttp 154 "GET /api/nav/ HTTP/1.1" 200 144
+INFO 2019-05-13 19:49:28,742 basehttp 154 "GET /api/nav/ HTTP/1.1" 200 144
+INFO 2019-05-13 19:54:12,035 basehttp 154 "GET /api/nav/ HTTP/1.1" 200 144
+INFO 2019-05-13 19:54:12,088 basehttp 154 "GET /api/banner/ HTTP/1.1" 200 371
+INFO 2019-05-13 19:55:15,955 basehttp 154 "OPTIONS /users/login/ HTTP/1.1" 200 0
+INFO 2019-05-13 19:55:16,470 basehttp 154 "POST /users/login/ HTTP/1.1" 200 195
+INFO 2019-05-13 19:55:16,683 basehttp 154 "GET /api/nav/ HTTP/1.1" 200 144
+INFO 2019-05-13 19:55:16,698 basehttp 154 "GET /api/banner/ HTTP/1.1" 200 371
+WARNING 2019-05-13 20:37:58,655 log 228 Not Found: /favicon.ico
+WARNING 2019-05-13 20:37:58,658 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2312
+WARNING 2019-05-13 20:37:59,405 log 228 Not Found: /
+WARNING 2019-05-13 20:37:59,408 basehttp 154 "GET / HTTP/1.1" 404 2261
+WARNING 2019-05-13 20:38:01,858 log 228 Not Found: /favicon.ico
+WARNING 2019-05-13 20:38:01,861 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2312
+WARNING 2019-05-13 20:38:06,851 log 228 Not Found: /users/
+WARNING 2019-05-13 20:38:06,854 basehttp 154 "GET /users/ HTTP/1.1" 404 2525
+INFO 2019-05-13 20:38:12,703 basehttp 154 "GET /users/captcha/ HTTP/1.1" 200 11463
+INFO 2019-05-13 20:38:12,951 basehttp 154 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2019-05-13 20:38:12,979 basehttp 154 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+INFO 2019-05-13 20:38:13,007 basehttp 154 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2019-05-13 20:38:13,025 basehttp 154 "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1131
+INFO 2019-05-13 20:38:13,080 basehttp 154 "GET /static/rest_framework/js/jquery-3.3.1.min.js HTTP/1.1" 200 86927
+INFO 2019-05-13 20:38:13,094 basehttp 154 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+INFO 2019-05-13 20:38:13,117 basehttp 154 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 37608
+INFO 2019-05-13 20:38:13,119 basehttp 154 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2019-05-13 20:38:13,197 basehttp 154 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1719
+INFO 2019-05-13 20:38:13,235 basehttp 154 "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+INFO 2019-05-13 20:38:13,275 basehttp 154 "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2019-05-13 20:46:09,616 basehttp 154 "GET /api/nav/ HTTP/1.1" 200 144
+INFO 2019-05-13 20:46:09,654 basehttp 154 "GET /api/banner/ HTTP/1.1" 200 371
+INFO 2019-05-13 20:48:19,352 basehttp 154 "GET /api/nav/ HTTP/1.1" 200 144
+INFO 2019-05-13 20:48:19,353 basehttp 154 "GET /api/banner/ HTTP/1.1" 200 371
+INFO 2019-05-13 20:55:07,546 basehttp 154 "GET /users/captcha/ HTTP/1.1" 200 140
+INFO 2019-05-13 20:57:08,744 basehttp 154 "GET /users/captcha/ HTTP/1.1" 200 140
+INFO 2019-05-13 20:57:13,372 basehttp 154 "GET /users/captcha/ HTTP/1.1" 200 140
+INFO 2019-05-13 20:57:25,988 basehttp 154 "OPTIONS /users/login/ HTTP/1.1" 200 0
+INFO 2019-05-13 20:57:26,662 basehttp 154 "POST /users/login/ HTTP/1.1" 200 195
+INFO 2019-05-13 20:57:27,047 basehttp 154 "GET /api/nav/ HTTP/1.1" 200 144
+INFO 2019-05-13 20:57:27,075 basehttp 154 "GET /api/banner/ HTTP/1.1" 200 371
+INFO 2019-05-13 20:57:35,150 basehttp 154 "GET /users/captcha/ HTTP/1.1" 200 140
+INFO 2019-05-13 20:58:02,330 basehttp 154 "POST /users/login/ HTTP/1.1" 200 195
+INFO 2019-05-13 20:58:02,591 basehttp 154 "GET /api/nav/ HTTP/1.1" 200 144
+INFO 2019-05-13 20:58:02,593 basehttp 154 "GET /api/banner/ HTTP/1.1" 200 371
+INFO 2019-05-13 20:59:16,556 basehttp 154 "GET /users/captcha/ HTTP/1.1" 200 140
+ERROR 2019-05-13 21:22:10,976 log 228 Internal Server Error: /users/captcha/
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\luffy\luffy\apps\users\views.py", line 30, in get
+    status = gt.pre_process(user_id)
+NameError: name 'gt' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 452, in handle_exception
+    response = exception_handler(exc, context)
+  File "C:\Users\Administrator\PycharmProjects\luffy\luffy\utils\exceptions.py", line 37, in custom_exception_handler
+    if response is None:
+UnboundLocalError: local variable 'response' referenced before assignment
+ERROR 2019-05-13 21:22:11,004 basehttp 154 "GET /users/captcha/ HTTP/1.1" 500 96235
+INFO 2019-05-13 21:22:14,507 basehttp 154 "GET /api/nav/ HTTP/1.1" 200 144
+INFO 2019-05-13 21:22:14,591 basehttp 154 "GET /api/banner/ HTTP/1.1" 200 371
+ERROR 2019-05-13 21:22:16,571 log 228 Internal Server Error: /users/captcha/
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\luffy\luffy\apps\users\views.py", line 30, in get
+    status = gt.pre_process(user_id)
+NameError: name 'gt' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 452, in handle_exception
+    response = exception_handler(exc, context)
+  File "C:\Users\Administrator\PycharmProjects\luffy\luffy\utils\exceptions.py", line 37, in custom_exception_handler
+    if response is None:
+UnboundLocalError: local variable 'response' referenced before assignment
+ERROR 2019-05-13 21:22:16,581 basehttp 154 "GET /users/captcha/ HTTP/1.1" 500 95946
+ERROR 2019-05-13 21:27:11,749 log 228 Internal Server Error: /users/captcha/
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\luffy\luffy\apps\users\views.py", line 30, in get
+    status = gt.pre_process(user_id)
+NameError: name 'gt' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 452, in handle_exception
+    response = exception_handler(exc, context)
+  File "C:\Users\Administrator\PycharmProjects\luffy\luffy\utils\exceptions.py", line 38, in custom_exception_handler
+    if response is None:
+NameError: name 'response' is not defined
+ERROR 2019-05-13 21:27:11,772 basehttp 154 "GET /users/captcha/ HTTP/1.1" 500 96060
+INFO 2019-05-13 21:27:13,936 basehttp 154 "GET /api/nav/ HTTP/1.1" 200 144
+INFO 2019-05-13 21:27:13,966 basehttp 154 "GET /api/banner/ HTTP/1.1" 200 371
+ERROR 2019-05-13 21:27:15,545 log 228 Internal Server Error: /users/captcha/
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\luffy\luffy\apps\users\views.py", line 30, in get
+    status = gt.pre_process(user_id)
+NameError: name 'gt' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 452, in handle_exception
+    response = exception_handler(exc, context)
+  File "C:\Users\Administrator\PycharmProjects\luffy\luffy\utils\exceptions.py", line 38, in custom_exception_handler
+    if response is None:
+NameError: name 'response' is not defined
+ERROR 2019-05-13 21:27:15,555 basehttp 154 "GET /users/captcha/ HTTP/1.1" 500 95738
+ERROR 2019-05-13 21:29:13,603 log 228 Internal Server Error: /users/captcha/
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\luffy\luffy\apps\users\views.py", line 30, in get
+    status = gt.pre_process(user_id)
+NameError: name 'gt' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 452, in handle_exception
+    response = exception_handler(exc, context)
+  File "C:\Users\Administrator\PycharmProjects\luffy\luffy\utils\exceptions.py", line 38, in custom_exception_handler
+    if response is None:
+NameError: name 'response' is not defined
+ERROR 2019-05-13 21:29:13,618 basehttp 154 "GET /users/captcha/ HTTP/1.1" 500 96622
+ERROR 2019-05-13 21:29:49,738 log 228 Internal Server Error: /users/captcha/
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\luffy\luffy\apps\users\views.py", line 30, in get
+    status = gt.pre_process(user_id)
+NameError: name 'gt' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 452, in handle_exception
+    response = exception_handler(exc, context)
+  File "C:\Users\Administrator\PycharmProjects\luffy\luffy\utils\exceptions.py", line 38, in custom_exception_handler
+    if response is None:
+NameError: name 'response' is not defined
+ERROR 2019-05-13 21:29:49,747 basehttp 154 "GET /users/captcha/ HTTP/1.1" 500 96724
+ERROR 2019-05-13 21:30:51,530 log 228 Internal Server Error: /users/captcha/
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\luffy\luffy\apps\users\views.py", line 30, in get
+    status = gt.pre_process(user_id)
+NameError: name 'gt' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 452, in handle_exception
+    response = exception_handler(exc, context)
+  File "C:\Users\Administrator\PycharmProjects\luffy\luffy\utils\exceptions.py", line 38, in custom_exception_handler
+    if response is None:
+NameError: name 'response' is not defined
+ERROR 2019-05-13 21:30:51,546 basehttp 154 "GET /users/captcha/ HTTP/1.1" 500 96060
+INFO 2019-05-13 21:31:03,804 basehttp 154 "OPTIONS /users/captcha/ HTTP/1.1" 200 0
+INFO 2019-05-13 21:31:03,817 basehttp 154 "POST /users/captcha/ HTTP/1.1" 200 13
+INFO 2019-05-13 21:31:04,057 basehttp 154 "GET /api/nav/ HTTP/1.1" 200 144
+INFO 2019-05-13 21:31:04,084 basehttp 154 "GET /api/banner/ HTTP/1.1" 200 371
+ERROR 2019-05-13 21:31:19,532 log 228 Internal Server Error: /users/captcha/
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\luffy\luffy\apps\users\views.py", line 30, in get
+    status = gt.pre_process(user_id)
+NameError: name 'gt' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 452, in handle_exception
+    response = exception_handler(exc, context)
+  File "C:\Users\Administrator\PycharmProjects\luffy\luffy\utils\exceptions.py", line 38, in custom_exception_handler
+    if response is None:
+NameError: name 'response' is not defined
+ERROR 2019-05-13 21:31:19,546 basehttp 154 "GET /users/captcha/ HTTP/1.1" 500 96060
+INFO 2019-05-13 21:31:24,114 basehttp 154 "OPTIONS /users/captcha/ HTTP/1.1" 200 0
+INFO 2019-05-13 21:31:24,131 basehttp 154 "POST /users/captcha/ HTTP/1.1" 200 13
+INFO 2019-05-13 21:31:24,298 basehttp 154 "GET /api/nav/ HTTP/1.1" 200 144
+INFO 2019-05-13 21:31:24,307 basehttp 154 "GET /api/banner/ HTTP/1.1" 200 371
+ERROR 2019-05-13 21:31:38,924 log 228 Internal Server Error: /users/captcha/
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\luffy\luffy\apps\users\views.py", line 30, in get
+    status = gt.pre_process(user_id)
+NameError: name 'gt' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 452, in handle_exception
+    response = exception_handler(exc, context)
+  File "C:\Users\Administrator\PycharmProjects\luffy\luffy\utils\exceptions.py", line 38, in custom_exception_handler
+    if response is None:
+NameError: name 'response' is not defined
+ERROR 2019-05-13 21:31:38,943 basehttp 154 "GET /users/captcha/ HTTP/1.1" 500 96060
+INFO 2019-05-13 21:31:41,460 basehttp 154 "OPTIONS /users/captcha/ HTTP/1.1" 200 0
+INFO 2019-05-13 21:31:41,474 basehttp 154 "POST /users/captcha/ HTTP/1.1" 200 13
+INFO 2019-05-13 21:31:41,629 basehttp 154 "GET /api/nav/ HTTP/1.1" 200 144
+INFO 2019-05-13 21:31:41,643 basehttp 154 "GET /api/banner/ HTTP/1.1" 200 371
+ERROR 2019-05-13 21:32:33,363 log 228 Internal Server Error: /users/captcha/
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\luffy\luffy\apps\users\views.py", line 30, in get
+    status = gt.pre_process(user_id)
+NameError: name 'gt' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 452, in handle_exception
+    response = exception_handler(exc, context)
+  File "C:\Users\Administrator\PycharmProjects\luffy\luffy\utils\exceptions.py", line 38, in custom_exception_handler
+    if response is None:
+NameError: name 'response' is not defined
+ERROR 2019-05-13 21:32:33,371 basehttp 154 "GET /users/captcha/ HTTP/1.1" 500 96321
+INFO 2019-05-13 21:32:40,315 basehttp 154 "OPTIONS /users/captcha/ HTTP/1.1" 200 0
+INFO 2019-05-13 21:32:40,333 basehttp 154 "POST /users/captcha/ HTTP/1.1" 200 13
+INFO 2019-05-13 21:32:40,542 basehttp 154 "GET /api/banner/ HTTP/1.1" 200 371
+INFO 2019-05-13 21:32:40,550 basehttp 154 "GET /api/nav/ HTTP/1.1" 200 144
+INFO 2019-05-13 21:32:40,669 basehttp 154 "GET /media/banner/2_r6bMsmA.png HTTP/1.1" 200 548211
+INFO 2019-05-13 21:32:40,670 basehttp 154 "GET /media/banner/1_xri3iAd.png HTTP/1.1" 200 402656
+ERROR 2019-05-13 21:41:18,375 log 228 Internal Server Error: /users/captcha/
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\luffy\luffy\apps\users\views.py", line 30, in get
+    status = gt.pre_process(user_id)
+NameError: name 'gt' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 452, in handle_exception
+    response = exception_handler(exc, context)
+  File "C:\Users\Administrator\PycharmProjects\luffy\luffy\utils\exceptions.py", line 38, in custom_exception_handler
+    if response is None:
+NameError: name 'response' is not defined
+ERROR 2019-05-13 21:41:18,389 basehttp 154 "GET /users/captcha/ HTTP/1.1" 500 96060
+INFO 2019-05-13 21:41:26,282 basehttp 154 "POST /users/captcha/ HTTP/1.1" 200 13
+INFO 2019-05-13 21:41:26,430 basehttp 154 "GET /api/nav/ HTTP/1.1" 200 144
+INFO 2019-05-13 21:41:26,467 basehttp 154 "GET /api/banner/ HTTP/1.1" 200 371
+ERROR 2019-05-13 21:42:07,795 log 228 Internal Server Error: /users/captcha/
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\luffy\luffy\apps\users\views.py", line 30, in get
+    status = gt.pre_process(user_id)
+NameError: name 'gt' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 452, in handle_exception
+    response = exception_handler(exc, context)
+  File "C:\Users\Administrator\PycharmProjects\luffy\luffy\utils\exceptions.py", line 38, in custom_exception_handler
+    if response is None:
+NameError: name 'response' is not defined
+ERROR 2019-05-13 21:42:07,803 basehttp 154 "GET /users/captcha/ HTTP/1.1" 500 96060
+ERROR 2019-05-13 21:50:46,294 log 228 Internal Server Error: /users/captcha/
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\luffy\luffy\apps\users\views.py", line 30, in get
+    status = gt.pre_process(user_id)
+NameError: name 'gt' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 452, in handle_exception
+    response = exception_handler(exc, context)
+  File "C:\Users\Administrator\PycharmProjects\luffy\luffy\utils\exceptions.py", line 38, in custom_exception_handler
+    if response is None:
+NameError: name 'response' is not defined
+ERROR 2019-05-13 21:50:46,308 basehttp 154 "GET /users/captcha/ HTTP/1.1" 500 96911
+ERROR 2019-05-13 21:55:16,613 log 228 Internal Server Error: /users/captcha/
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\luffy\luffy\apps\users\views.py", line 30, in get
+    status = gt.pre_process(user_id)
+NameError: name 'gt' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 452, in handle_exception
+    response = exception_handler(exc, context)
+  File "C:\Users\Administrator\PycharmProjects\luffy\luffy\utils\exceptions.py", line 37, in custom_exception_handler
+    if response is None:
+UnboundLocalError: local variable 'response' referenced before assignment
+ERROR 2019-05-13 21:55:16,647 basehttp 154 "GET /users/captcha/ HTTP/1.1" 500 96235
+ERROR 2019-05-13 21:57:55,042 log 228 Internal Server Error: /users/captcha/
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\luffy\luffy\apps\users\views.py", line 30, in get
+    status = gt.pre_process(user_id)
+NameError: name 'gt' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 452, in handle_exception
+    response = exception_handler(exc, context)
+  File "C:\Users\Administrator\PycharmProjects\luffy\luffy\utils\exceptions.py", line 37, in custom_exception_handler
+    if response is None:
+UnboundLocalError: local variable 'response' referenced before assignment
+ERROR 2019-05-13 21:57:55,058 basehttp 154 "GET /users/captcha/ HTTP/1.1" 500 95657
+ERROR 2019-05-13 21:58:16,967 log 228 Internal Server Error: /users/captcha/
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\luffy\luffy\apps\users\views.py", line 30, in get
+    status = gt.pre_process(user_id)
+NameError: name 'gt' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 452, in handle_exception
+    response = exception_handler(exc, context)
+  File "C:\Users\Administrator\PycharmProjects\luffy\luffy\utils\exceptions.py", line 37, in custom_exception_handler
+    if response is None:
+UnboundLocalError: local variable 'response' referenced before assignment
+ERROR 2019-05-13 21:58:16,974 basehttp 154 "GET /users/captcha/ HTTP/1.1" 500 95591
+ERROR 2019-05-13 22:02:00,291 log 228 Internal Server Error: /users/captcha/
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\luffy\luffy\apps\users\views.py", line 30, in get
+    status = gt.pre_process(user_id)
+NameError: name 'gt' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 452, in handle_exception
+    response = exception_handler(exc, context)
+  File "C:\Users\Administrator\PycharmProjects\luffy\luffy\utils\exceptions.py", line 37, in custom_exception_handler
+    if response is None:
+UnboundLocalError: local variable 'response' referenced before assignment
+ERROR 2019-05-13 22:02:00,316 basehttp 154 "GET /users/captcha/ HTTP/1.1" 500 96235
+INFO 2019-05-13 22:04:36,456 basehttp 154 "GET /users/captcha/ HTTP/1.1" 200 140
+INFO 2019-05-13 22:04:41,905 basehttp 154 "GET /users/captcha/ HTTP/1.1" 200 140
+INFO 2019-05-13 22:04:48,116 basehttp 154 "OPTIONS /users/captcha/ HTTP/1.1" 200 0
+INFO 2019-05-13 22:04:48,130 basehttp 154 "POST /users/captcha/ HTTP/1.1" 200 17
+INFO 2019-05-13 22:04:53,781 basehttp 154 "POST /users/captcha/ HTTP/1.1" 200 13
+INFO 2019-05-13 22:04:54,070 basehttp 154 "GET /api/nav/ HTTP/1.1" 200 144
+INFO 2019-05-13 22:04:54,110 basehttp 154 "GET /api/banner/ HTTP/1.1" 200 371
+INFO 2019-05-13 22:05:05,619 basehttp 154 "GET /users/captcha/ HTTP/1.1" 200 140
+INFO 2019-05-13 22:05:06,873 basehttp 154 "POST /users/captcha/ HTTP/1.1" 200 13
+INFO 2019-05-13 22:05:07,047 basehttp 154 "GET /api/nav/ HTTP/1.1" 200 144
+INFO 2019-05-13 22:05:07,079 basehttp 154 "GET /api/banner/ HTTP/1.1" 200 371
+INFO 2019-05-13 22:05:19,565 basehttp 154 "GET /users/captcha/ HTTP/1.1" 200 140
+INFO 2019-05-13 22:05:36,947 basehttp 154 "OPTIONS /users/captcha/ HTTP/1.1" 200 0
+INFO 2019-05-13 22:05:36,964 basehttp 154 "POST /users/captcha/ HTTP/1.1" 200 17
+INFO 2019-05-13 22:05:39,655 basehttp 154 "OPTIONS /users/captcha/ HTTP/1.1" 200 0
+INFO 2019-05-13 22:05:39,674 basehttp 154 "POST /users/captcha/ HTTP/1.1" 200 13
+INFO 2019-05-13 22:05:39,893 basehttp 154 "GET /api/nav/ HTTP/1.1" 200 144
+INFO 2019-05-13 22:05:39,908 basehttp 154 "GET /api/banner/ HTTP/1.1" 200 371
+INFO 2019-05-13 22:05:40,042 basehttp 154 "GET /media/banner/2_r6bMsmA.png HTTP/1.1" 200 548211
+INFO 2019-05-13 22:05:40,056 basehttp 154 "GET /media/banner/1_xri3iAd.png HTTP/1.1" 200 402656
+INFO 2019-05-13 22:07:35,549 basehttp 154 "GET /users/captcha/ HTTP/1.1" 200 140
+INFO 2019-05-13 22:07:49,111 basehttp 154 "POST /users/captcha/ HTTP/1.1" 200 17
+INFO 2019-05-13 22:11:35,569 basehttp 154 "GET /users/captcha/ HTTP/1.1" 200 140
+INFO 2019-05-13 22:11:43,500 basehttp 154 "POST /users/captcha/ HTTP/1.1" 200 17
+INFO 2019-05-13 22:11:43,555 basehttp 154 "POST /users/captcha/ HTTP/1.1" 200 13
+INFO 2019-05-13 22:11:43,932 basehttp 154 "GET /api/nav/ HTTP/1.1" 200 144
+INFO 2019-05-13 22:11:43,948 basehttp 154 "GET /api/banner/ HTTP/1.1" 200 371
+INFO 2019-05-13 22:14:31,786 basehttp 154 "GET /api/nav/ HTTP/1.1" 200 144
+INFO 2019-05-13 22:14:31,787 basehttp 154 "GET /api/banner/ HTTP/1.1" 200 371
+INFO 2019-05-13 22:14:32,621 basehttp 154 "GET /media/banner/1_xri3iAd.png HTTP/1.1" 200 402656
+INFO 2019-05-13 22:14:32,627 basehttp 154 "GET /media/banner/2_r6bMsmA.png HTTP/1.1" 200 548211
+INFO 2019-05-13 22:14:52,060 basehttp 154 "GET /users/captcha/ HTTP/1.1" 200 140
+INFO 2019-05-13 22:17:21,272 basehttp 154 "GET /users/captcha/ HTTP/1.1" 200 140
+INFO 2019-05-13 22:21:25,731 basehttp 154 "GET /users/captcha/ HTTP/1.1" 200 140
+INFO 2019-05-13 22:21:38,675 basehttp 154 "OPTIONS /users/captcha/ HTTP/1.1" 200 0
+INFO 2019-05-13 22:21:38,691 basehttp 154 "POST /users/captcha/ HTTP/1.1" 200 17
+INFO 2019-05-13 22:21:38,877 basehttp 154 "OPTIONS /users/captcha/ HTTP/1.1" 200 0
+INFO 2019-05-13 22:21:38,897 basehttp 154 "POST /users/captcha/ HTTP/1.1" 200 13
+INFO 2019-05-13 22:21:39,234 basehttp 154 "GET /api/nav/ HTTP/1.1" 200 144
+INFO 2019-05-13 22:21:39,257 basehttp 154 "GET /api/banner/ HTTP/1.1" 200 371
+INFO 2019-05-13 22:21:39,414 basehttp 154 "GET /media/banner/1_xri3iAd.png HTTP/1.1" 200 402656
+INFO 2019-05-13 22:21:39,419 basehttp 154 "GET /media/banner/2_r6bMsmA.png HTTP/1.1" 200 548211
+INFO 2019-05-13 22:24:35,375 basehttp 154 "POST /users/login/ HTTP/1.1" 200 195
+WARNING 2019-05-13 22:28:55,901 log 228 Bad Request: /users/login/
+WARNING 2019-05-13 22:28:55,903 basehttp 154 "POST /users/login/ HTTP/1.1" 400 81
+WARNING 2019-05-13 22:29:22,313 log 228 Bad Request: /users/login/
+WARNING 2019-05-13 22:29:22,314 basehttp 154 "POST /users/login/ HTTP/1.1" 400 41
+WARNING 2019-05-13 22:31:09,421 log 228 Bad Request: /users/login/
+WARNING 2019-05-13 22:31:09,423 basehttp 154 "POST /users/login/ HTTP/1.1" 400 41
+WARNING 2019-05-13 22:31:21,966 log 228 Bad Request: /users/login/
+WARNING 2019-05-13 22:31:21,968 basehttp 154 "POST /users/login/ HTTP/1.1" 400 67
+INFO 2019-05-13 22:31:34,670 basehttp 154 "POST /users/login/ HTTP/1.1" 200 195
+INFO 2019-05-13 22:31:54,093 basehttp 154 "GET /users/captcha/ HTTP/1.1" 200 140
+INFO 2019-05-13 22:32:11,425 basehttp 154 "OPTIONS /users/captcha/ HTTP/1.1" 200 0
+INFO 2019-05-13 22:32:11,444 basehttp 154 "POST /users/captcha/ HTTP/1.1" 200 17
+INFO 2019-05-13 22:32:14,501 basehttp 154 "OPTIONS /users/captcha/ HTTP/1.1" 200 0
+INFO 2019-05-13 22:32:14,518 basehttp 154 "POST /users/captcha/ HTTP/1.1" 200 13
+INFO 2019-05-13 22:32:14,719 basehttp 154 "GET /api/nav/ HTTP/1.1" 200 144
+INFO 2019-05-13 22:32:14,764 basehttp 154 "GET /api/banner/ HTTP/1.1" 200 371
+INFO 2019-05-13 22:36:06,438 basehttp 154 "GET /api/banner/ HTTP/1.1" 200 371
+INFO 2019-05-13 22:36:06,451 basehttp 154 "GET /api/nav/ HTTP/1.1" 200 144
+INFO 2019-05-13 22:36:07,021 basehttp 154 "GET /media/banner/2_r6bMsmA.png HTTP/1.1" 200 548211
+INFO 2019-05-13 22:36:07,025 basehttp 154 "GET /media/banner/1_xri3iAd.png HTTP/1.1" 200 402656
+INFO 2019-05-13 22:36:13,878 basehttp 154 "GET /users/captcha/ HTTP/1.1" 200 140
+INFO 2019-05-13 22:36:23,916 basehttp 154 "OPTIONS /users/captcha/ HTTP/1.1" 200 0
+INFO 2019-05-13 22:36:23,939 basehttp 154 "POST /users/captcha/ HTTP/1.1" 200 17
+INFO 2019-05-13 22:36:24,457 basehttp 154 "OPTIONS /users/login/ HTTP/1.1" 200 0
+INFO 2019-05-13 22:36:24,870 basehttp 154 "POST /users/login/ HTTP/1.1" 200 195
+INFO 2019-05-13 22:36:25,101 basehttp 154 "GET /api/nav/ HTTP/1.1" 200 144
+INFO 2019-05-13 22:36:25,112 basehttp 154 "GET /api/banner/ HTTP/1.1" 200 371
+INFO 2019-05-13 22:37:54,168 basehttp 154 "GET /users/captcha/ HTTP/1.1" 200 140
+INFO 2019-05-13 22:37:59,159 basehttp 154 "POST /users/captcha/ HTTP/1.1" 200 17
+WARNING 2019-05-13 22:38:00,420 log 228 Bad Request: /users/login/
+WARNING 2019-05-13 22:38:00,421 basehttp 154 "POST /users/login/ HTTP/1.1" 400 81
+WARNING 2019-05-13 22:38:00,842 log 228 Bad Request: /users/login/
+WARNING 2019-05-13 22:38:00,843 basehttp 154 "POST /users/login/ HTTP/1.1" 400 81
+WARNING 2019-05-13 22:38:01,026 log 228 Bad Request: /users/login/
+WARNING 2019-05-13 22:38:01,027 basehttp 154 "POST /users/login/ HTTP/1.1" 400 81
+WARNING 2019-05-13 22:38:01,225 log 228 Bad Request: /users/login/
+WARNING 2019-05-13 22:38:01,226 basehttp 154 "POST /users/login/ HTTP/1.1" 400 81
+WARNING 2019-05-13 22:38:01,422 log 228 Bad Request: /users/login/
+WARNING 2019-05-13 22:38:01,423 basehttp 154 "POST /users/login/ HTTP/1.1" 400 81
+WARNING 2019-05-13 22:38:01,684 log 228 Bad Request: /users/login/
+WARNING 2019-05-13 22:38:01,685 basehttp 154 "POST /users/login/ HTTP/1.1" 400 81
+WARNING 2019-05-13 22:38:03,886 log 228 Bad Request: /users/login/
+WARNING 2019-05-13 22:38:03,887 basehttp 154 "POST /users/login/ HTTP/1.1" 400 81
+WARNING 2019-05-13 22:38:04,052 log 228 Bad Request: /users/login/
+WARNING 2019-05-13 22:38:04,054 basehttp 154 "POST /users/login/ HTTP/1.1" 400 81
+WARNING 2019-05-13 22:38:04,213 log 228 Bad Request: /users/login/
+WARNING 2019-05-13 22:38:04,214 basehttp 154 "POST /users/login/ HTTP/1.1" 400 81
+WARNING 2019-05-13 22:38:04,363 log 228 Bad Request: /users/login/
+WARNING 2019-05-13 22:38:04,365 basehttp 154 "POST /users/login/ HTTP/1.1" 400 81
+WARNING 2019-05-13 22:38:04,533 log 228 Bad Request: /users/login/
+WARNING 2019-05-13 22:38:04,535 basehttp 154 "POST /users/login/ HTTP/1.1" 400 81
+WARNING 2019-05-13 22:38:04,701 log 228 Bad Request: /users/login/
+WARNING 2019-05-13 22:38:04,702 basehttp 154 "POST /users/login/ HTTP/1.1" 400 81
+WARNING 2019-05-13 22:38:04,867 log 228 Bad Request: /users/login/
+WARNING 2019-05-13 22:38:04,868 basehttp 154 "POST /users/login/ HTTP/1.1" 400 81
+WARNING 2019-05-13 22:38:05,036 log 228 Bad Request: /users/login/
+WARNING 2019-05-13 22:38:05,039 basehttp 154 "POST /users/login/ HTTP/1.1" 400 81
+WARNING 2019-05-13 22:38:08,220 log 228 Bad Request: /users/login/
+WARNING 2019-05-13 22:38:08,222 basehttp 154 "POST /users/login/ HTTP/1.1" 400 81
+INFO 2019-05-13 22:41:15,788 basehttp 154 "GET /users/captcha/ HTTP/1.1" 200 140
+INFO 2019-05-13 22:41:41,913 basehttp 154 "OPTIONS /users/captcha/ HTTP/1.1" 200 0
+INFO 2019-05-13 22:41:41,933 basehttp 154 "POST /users/captcha/ HTTP/1.1" 200 17
+INFO 2019-05-13 22:41:44,011 basehttp 154 "OPTIONS /users/login/ HTTP/1.1" 200 0
+WARNING 2019-05-13 22:41:44,412 log 228 Bad Request: /users/login/
+WARNING 2019-05-13 22:41:44,415 basehttp 154 "POST /users/login/ HTTP/1.1" 400 67
+INFO 2019-05-13 22:41:48,605 basehttp 154 "OPTIONS /users/login/ HTTP/1.1" 200 0
+WARNING 2019-05-13 22:41:49,006 log 228 Bad Request: /users/login/
+WARNING 2019-05-13 22:41:49,019 basehttp 154 "POST /users/login/ HTTP/1.1" 400 67
+INFO 2019-05-13 22:41:49,380 basehttp 154 "OPTIONS /users/login/ HTTP/1.1" 200 0
+WARNING 2019-05-13 22:41:49,765 log 228 Bad Request: /users/login/
+WARNING 2019-05-13 22:41:49,771 basehttp 154 "POST /users/login/ HTTP/1.1" 400 67
+INFO 2019-05-13 22:42:28,012 basehttp 154 "OPTIONS /users/login/ HTTP/1.1" 200 0
+WARNING 2019-05-13 22:42:28,477 log 228 Bad Request: /users/login/
+WARNING 2019-05-13 22:42:28,480 basehttp 154 "POST /users/login/ HTTP/1.1" 400 67
+INFO 2019-05-13 22:44:23,462 basehttp 154 "GET /users/captcha/ HTTP/1.1" 200 140
+INFO 2019-05-13 22:44:40,446 basehttp 154 "OPTIONS /users/captcha/ HTTP/1.1" 200 0
+INFO 2019-05-13 22:44:40,466 basehttp 154 "POST /users/captcha/ HTTP/1.1" 200 17
+INFO 2019-05-13 22:44:41,073 basehttp 154 "OPTIONS /users/login/ HTTP/1.1" 200 0
+WARNING 2019-05-13 22:44:41,466 log 228 Bad Request: /users/login/
+WARNING 2019-05-13 22:44:41,480 basehttp 154 "POST /users/login/ HTTP/1.1" 400 67
+INFO 2019-05-13 22:46:23,696 basehttp 154 "GET /users/captcha/ HTTP/1.1" 200 140
+INFO 2019-05-13 22:46:33,866 basehttp 154 "OPTIONS /users/captcha/ HTTP/1.1" 200 0
+INFO 2019-05-13 22:46:33,886 basehttp 154 "POST /users/captcha/ HTTP/1.1" 200 17
+INFO 2019-05-13 22:46:34,045 basehttp 154 "OPTIONS /users/login/ HTTP/1.1" 200 0
+WARNING 2019-05-13 22:46:34,456 log 228 Bad Request: /users/login/
+WARNING 2019-05-13 22:46:34,457 basehttp 154 "POST /users/login/ HTTP/1.1" 400 67
+INFO 2019-05-13 22:46:39,413 basehttp 154 "OPTIONS /users/login/ HTTP/1.1" 200 0
+WARNING 2019-05-13 22:46:39,809 log 228 Bad Request: /users/login/
+WARNING 2019-05-13 22:46:39,811 basehttp 154 "POST /users/login/ HTTP/1.1" 400 67
+INFO 2019-05-13 22:46:39,925 basehttp 154 "OPTIONS /users/login/ HTTP/1.1" 200 0
+INFO 2019-05-13 22:46:40,110 basehttp 154 "OPTIONS /users/login/ HTTP/1.1" 200 0
+WARNING 2019-05-13 22:46:40,365 log 228 Bad Request: /users/login/
+WARNING 2019-05-13 22:46:40,368 basehttp 154 "POST /users/login/ HTTP/1.1" 400 67
+WARNING 2019-05-13 22:46:40,542 log 228 Bad Request: /users/login/
+WARNING 2019-05-13 22:46:40,544 basehttp 154 "POST /users/login/ HTTP/1.1" 400 67
+INFO 2019-05-13 22:46:40,590 basehttp 154 "OPTIONS /users/login/ HTTP/1.1" 200 0
+INFO 2019-05-13 22:46:40,798 basehttp 154 "OPTIONS /users/login/ HTTP/1.1" 200 0
+INFO 2019-05-13 22:46:40,980 basehttp 154 "OPTIONS /users/login/ HTTP/1.1" 200 0
+WARNING 2019-05-13 22:46:41,205 log 228 Bad Request: /users/login/
+WARNING 2019-05-13 22:46:41,207 basehttp 154 "POST /users/login/ HTTP/1.1" 400 67
+WARNING 2019-05-13 22:46:41,381 log 228 Bad Request: /users/login/
+WARNING 2019-05-13 22:46:41,383 basehttp 154 "POST /users/login/ HTTP/1.1" 400 67
+WARNING 2019-05-13 22:46:41,550 log 228 Bad Request: /users/login/
+WARNING 2019-05-13 22:46:41,552 basehttp 154 "POST /users/login/ HTTP/1.1" 400 67
+INFO 2019-05-13 22:46:57,371 basehttp 154 "POST /users/login/ HTTP/1.1" 200 195
+INFO 2019-05-13 22:47:51,259 basehttp 154 "POST /users/login/ HTTP/1.1" 200 195
+INFO 2019-05-13 22:48:01,677 basehttp 154 "GET /users/captcha/ HTTP/1.1" 200 140
+INFO 2019-05-13 22:48:11,735 basehttp 154 "OPTIONS /users/captcha/ HTTP/1.1" 200 0
+INFO 2019-05-13 22:48:11,754 basehttp 154 "POST /users/captcha/ HTTP/1.1" 200 17
+INFO 2019-05-13 22:48:14,488 basehttp 154 "OPTIONS /users/login/ HTTP/1.1" 200 0
+INFO 2019-05-13 22:48:14,889 basehttp 154 "POST /users/login/ HTTP/1.1" 200 195
+INFO 2019-05-13 22:48:15,259 basehttp 154 "GET /api/nav/ HTTP/1.1" 200 144
+INFO 2019-05-13 22:48:15,275 basehttp 154 "GET /api/banner/ HTTP/1.1" 200 371
+INFO 2019-05-13 22:48:15,429 basehttp 154 "GET /media/banner/2_r6bMsmA.png HTTP/1.1" 200 548211
+INFO 2019-05-13 22:48:15,493 basehttp 154 "GET /media/banner/1_xri3iAd.png HTTP/1.1" 200 402656
+INFO 2019-05-13 22:50:17,082 basehttp 154 "GET /users/captcha/ HTTP/1.1" 200 140
+INFO 2019-05-13 22:50:30,628 basehttp 154 "OPTIONS /users/captcha/ HTTP/1.1" 200 0
+INFO 2019-05-13 22:50:30,649 basehttp 154 "POST /users/captcha/ HTTP/1.1" 200 17
+INFO 2019-05-13 22:50:30,719 basehttp 154 "OPTIONS /users/login/ HTTP/1.1" 200 0
+INFO 2019-05-13 22:50:31,130 basehttp 154 "POST /users/login/ HTTP/1.1" 200 195
+INFO 2019-05-13 22:50:31,438 basehttp 154 "GET /api/nav/ HTTP/1.1" 200 144
+INFO 2019-05-13 22:50:31,461 basehttp 154 "GET /api/banner/ HTTP/1.1" 200 371
+INFO 2019-05-13 22:50:31,618 basehttp 154 "GET /media/banner/1_xri3iAd.png HTTP/1.1" 200 402656
+INFO 2019-05-13 22:50:31,620 basehttp 154 "GET /media/banner/2_r6bMsmA.png HTTP/1.1" 200 548211
+INFO 2019-05-13 22:52:51,248 basehttp 154 "GET /users/captcha/ HTTP/1.1" 200 140
+INFO 2019-05-13 22:52:59,559 basehttp 154 "OPTIONS /users/captcha/ HTTP/1.1" 200 0
+INFO 2019-05-13 22:52:59,580 basehttp 154 "POST /users/captcha/ HTTP/1.1" 200 17
+INFO 2019-05-13 22:52:59,790 basehttp 154 "OPTIONS /users/login/ HTTP/1.1" 200 0
+INFO 2019-05-13 22:53:00,202 basehttp 154 "POST /users/login/ HTTP/1.1" 200 195
+INFO 2019-05-13 22:53:00,398 basehttp 154 "GET /api/nav/ HTTP/1.1" 200 144
+INFO 2019-05-13 22:53:00,460 basehttp 154 "GET /api/banner/ HTTP/1.1" 200 371
+INFO 2019-05-13 22:54:06,715 basehttp 154 "GET /users/captcha/ HTTP/1.1" 200 140
+INFO 2019-05-13 22:54:14,633 basehttp 154 "OPTIONS /users/captcha/ HTTP/1.1" 200 0
+INFO 2019-05-13 22:54:14,658 basehttp 154 "POST /users/captcha/ HTTP/1.1" 200 17
+INFO 2019-05-13 22:54:17,662 basehttp 154 "OPTIONS /users/login/ HTTP/1.1" 200 0
+INFO 2019-05-13 22:54:18,021 basehttp 154 "POST /users/login/ HTTP/1.1" 200 195
+INFO 2019-05-13 22:54:18,176 basehttp 154 "GET /api/nav/ HTTP/1.1" 200 144
+INFO 2019-05-13 22:54:18,178 basehttp 154 "GET /api/banner/ HTTP/1.1" 200 371
+INFO 2019-05-13 22:55:37,149 basehttp 154 "GET /users/captcha/ HTTP/1.1" 200 140
+INFO 2019-05-13 22:55:49,211 basehttp 154 "POST /users/captcha/ HTTP/1.1" 200 17
+WARNING 2019-05-13 22:55:49,696 log 228 Bad Request: /users/login/
+WARNING 2019-05-13 22:55:49,697 basehttp 154 "POST /users/login/ HTTP/1.1" 400 67
+INFO 2019-05-13 22:56:16,442 basehttp 154 "GET /users/captcha/ HTTP/1.1" 200 140
+INFO 2019-05-13 22:56:28,483 basehttp 154 "OPTIONS /users/captcha/ HTTP/1.1" 200 0
+INFO 2019-05-13 22:56:28,514 basehttp 154 "POST /users/captcha/ HTTP/1.1" 200 17
+INFO 2019-05-13 22:56:29,199 basehttp 154 "OPTIONS /users/login/ HTTP/1.1" 200 0
+INFO 2019-05-13 22:56:29,664 basehttp 154 "POST /users/login/ HTTP/1.1" 200 195
+INFO 2019-05-13 22:56:30,020 basehttp 154 "GET /api/nav/ HTTP/1.1" 200 144
+INFO 2019-05-13 22:56:30,045 basehttp 154 "GET /api/banner/ HTTP/1.1" 200 371
+INFO 2019-05-13 22:56:30,206 basehttp 154 "GET /media/banner/2_r6bMsmA.png HTTP/1.1" 200 548211
+INFO 2019-05-13 22:56:30,219 basehttp 154 "GET /media/banner/1_xri3iAd.png HTTP/1.1" 200 402656
+WARNING 2019-05-13 23:00:02,244 log 228 Bad Request: /users/login/
+WARNING 2019-05-13 23:00:02,246 basehttp 154 "POST /users/login/ HTTP/1.1" 400 67
+INFO 2019-05-13 23:00:28,879 basehttp 154 "POST /users/login/ HTTP/1.1" 200 195
+INFO 2019-05-13 23:01:13,242 basehttp 154 "GET /users/captcha/ HTTP/1.1" 200 140
+INFO 2019-05-14 20:46:27,227 basehttp 154 "GET /api/nav/ HTTP/1.1" 200 144
+INFO 2019-05-14 20:46:27,300 basehttp 154 "GET /api/banner/ HTTP/1.1" 200 371
+INFO 2019-05-14 20:46:27,332 basehttp 154 "GET /media/banner/2_r6bMsmA.png HTTP/1.1" 304 0
+INFO 2019-05-14 20:46:27,334 basehttp 154 "GET /media/banner/1_xri3iAd.png HTTP/1.1" 304 0
+INFO 2019-05-14 21:44:51,416 basehttp 154 "GET /users/captcha/ HTTP/1.1" 200 140
+INFO 2019-05-14 21:45:21,011 basehttp 154 "GET /users/captcha/ HTTP/1.1" 200 140
+INFO 2019-05-14 21:45:50,152 basehttp 154 "OPTIONS /users/captcha/ HTTP/1.1" 200 0
+INFO 2019-05-14 21:45:50,171 basehttp 154 "POST /users/captcha/ HTTP/1.1" 200 17
+INFO 2019-05-14 21:45:50,272 basehttp 154 "OPTIONS /users/login/ HTTP/1.1" 200 0
+INFO 2019-05-14 21:45:51,004 basehttp 154 "POST /users/login/ HTTP/1.1" 200 195
+INFO 2019-05-14 21:45:53,013 basehttp 154 "POST /users/login/ HTTP/1.1" 200 195
+INFO 2019-05-14 21:46:39,496 basehttp 154 "GET /api/nav/ HTTP/1.1" 200 144
+INFO 2019-05-14 21:46:39,601 basehttp 154 "GET /api/banner/ HTTP/1.1" 200 371
+INFO 2019-05-14 21:46:42,561 basehttp 154 "GET /media/banner/1_xri3iAd.png HTTP/1.1" 200 402656
+INFO 2019-05-14 21:46:42,717 basehttp 154 "GET /media/banner/2_r6bMsmA.png HTTP/1.1" 200 548211
+WARNING 2019-05-14 22:07:45,940 log 228 Not Found: /users/verify
+WARNING 2019-05-14 22:07:45,945 basehttp 154 "GET /users/verify HTTP/1.1" 404 2700
+WARNING 2019-05-14 22:07:47,517 log 228 Not Found: /users/verify
+WARNING 2019-05-14 22:07:47,520 basehttp 154 "GET /users/verify HTTP/1.1" 404 2700
+WARNING 2019-05-14 22:08:50,480 log 228 Not Found: /users/verify
+WARNING 2019-05-14 22:08:50,482 basehttp 154 "GET /users/verify HTTP/1.1" 404 2700
+WARNING 2019-05-14 22:09:12,197 log 228 Not Found: /users/sms
+WARNING 2019-05-14 22:09:12,198 basehttp 154 "GET /users/sms?mobile=13112345678 HTTP/1.1" 404 2710
+WARNING 2019-05-14 22:09:15,074 log 228 Not Found: /users/sms
+WARNING 2019-05-14 22:09:15,075 basehttp 154 "GET /users/sms?mobile=13112345678 HTTP/1.1" 404 2710
+WARNING 2019-05-14 22:09:21,699 log 228 Not Found: /users/sms
+WARNING 2019-05-14 22:09:21,701 basehttp 154 "GET /users/sms?mobile=13112345678 HTTP/1.1" 404 2710
+WARNING 2019-05-14 22:10:20,789 log 228 Not Found: /favicon.ico
+WARNING 2019-05-14 22:10:20,790 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2312
+WARNING 2019-05-14 22:10:22,179 log 228 Not Found: /login/
+WARNING 2019-05-14 22:10:22,180 basehttp 154 "GET /login/ HTTP/1.1" 404 2297
+WARNING 2019-05-14 22:10:24,536 log 228 Not Found: /favicon.ico
+WARNING 2019-05-14 22:10:24,538 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2312
+WARNING 2019-05-14 22:10:29,816 log 228 Not Found: /login/users/
+WARNING 2019-05-14 22:10:29,817 basehttp 154 "GET /login/users/ HTTP/1.1" 404 2315
+WARNING 2019-05-14 22:10:42,699 log 228 Not Found: /users/
+WARNING 2019-05-14 22:10:42,700 basehttp 154 "GET /users/ HTTP/1.1" 404 2682
+INFO 2019-05-14 22:10:49,125 basehttp 154 "GET /users/captcha/ HTTP/1.1" 200 11448
+INFO 2019-05-14 22:10:49,268 basehttp 154 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2019-05-14 22:10:49,272 basehttp 154 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+INFO 2019-05-14 22:10:49,288 basehttp 154 "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1131
+INFO 2019-05-14 22:10:49,317 basehttp 154 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2019-05-14 22:10:49,319 basehttp 154 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+INFO 2019-05-14 22:10:49,321 basehttp 154 "GET /static/rest_framework/js/jquery-3.3.1.min.js HTTP/1.1" 200 86927
+INFO 2019-05-14 22:10:49,338 basehttp 154 "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2019-05-14 22:10:49,379 basehttp 154 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1719
+INFO 2019-05-14 22:10:49,432 basehttp 154 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 37608
+INFO 2019-05-14 22:10:49,436 basehttp 154 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2019-05-14 22:10:49,454 basehttp 154 "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+WARNING 2019-05-14 22:11:04,723 log 228 Not Found: /
+WARNING 2019-05-14 22:11:04,724 basehttp 154 "GET / HTTP/1.1" 404 2261
+WARNING 2019-05-14 22:11:14,611 log 228 Not Found: /users/
+WARNING 2019-05-14 22:11:14,613 basehttp 154 "GET /users/ HTTP/1.1" 404 2682
+ERROR 2019-05-14 22:11:21,965 log 228 Internal Server Error: /users/user
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 169, in http_method_not_allowed
+    raise exceptions.MethodNotAllowed(request.method)
+rest_framework.exceptions.MethodNotAllowed: 方法 “GET” 不被允许。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 452, in handle_exception
+    response = exception_handler(exc, context)
+  File "C:\Users\Administrator\PycharmProjects\luffy\luffy\utils\exceptions.py", line 37, in custom_exception_handler
+    if response is None:
+UnboundLocalError: local variable 'response' referenced before assignment
+ERROR 2019-05-14 22:11:21,978 basehttp 154 "GET /users/user HTTP/1.1" 500 97616
+ERROR 2019-05-14 22:12:17,553 log 228 Internal Server Error: /users/user
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\generics.py", line 192, in post
+    return self.create(request, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\mixins.py", line 20, in create
+    serializer.is_valid(raise_exception=True)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 244, in is_valid
+    raise ValidationError(self.errors)
+rest_framework.exceptions.ValidationError: {'mobile': [ErrorDetail(string='该字段是必填项。', code='required')], 'password2': [ErrorDetail(string='该字段是必填项。', code='required')], 'sms_code': [ErrorDetail(string='该字段是必填项。', code='required')]}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 452, in handle_exception
+    response = exception_handler(exc, context)
+  File "C:\Users\Administrator\PycharmProjects\luffy\luffy\utils\exceptions.py", line 37, in custom_exception_handler
+    if response is None:
+UnboundLocalError: local variable 'response' referenced before assignment
+ERROR 2019-05-14 22:12:17,570 basehttp 154 "POST /users/user HTTP/1.1" 500 108493
+WARNING 2019-05-14 22:17:36,138 log 228 Not Found: /users/sms
+WARNING 2019-05-14 22:17:36,142 basehttp 154 "GET /users/sms?mobile=%22+this.mobile HTTP/1.1" 404 2714
+ERROR 2019-05-14 22:17:38,817 log 228 Internal Server Error: /users/user
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 169, in http_method_not_allowed
+    raise exceptions.MethodNotAllowed(request.method)
+rest_framework.exceptions.MethodNotAllowed: 方法 “GET” 不被允许。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 452, in handle_exception
+    response = exception_handler(exc, context)
+  File "C:\Users\Administrator\PycharmProjects\luffy\luffy\utils\exceptions.py", line 37, in custom_exception_handler
+    if response is None:
+UnboundLocalError: local variable 'response' referenced before assignment
+ERROR 2019-05-14 22:17:38,828 basehttp 154 "GET /users/user HTTP/1.1" 500 98662
+WARNING 2019-05-14 22:20:10,093 log 228 Not Found: /users/user
+WARNING 2019-05-14 22:20:10,096 basehttp 154 "GET /users/user HTTP/1.1" 404 2886
+INFO 2019-05-14 22:20:43,097 basehttp 154 "GET /users/sms/15892092015 HTTP/1.1" 301 0
+INFO 2019-05-14 22:20:44,464 basehttp 154 "GET /users/sms/15892092015/ HTTP/1.1" 200 13
+INFO 2019-05-14 22:21:04,890 basehttp 154 "GET /users/sms/15892092015 HTTP/1.1" 301 0
+INFO 2019-05-14 22:21:05,220 basehttp 154 "GET /users/sms/15892092015/ HTTP/1.1" 200 13
+WARNING 2019-05-14 22:21:25,123 log 228 Not Found: /users/verify
+WARNING 2019-05-14 22:21:25,127 basehttp 154 "GET /users/verify HTTP/1.1" 404 2892
+WARNING 2019-05-14 22:21:31,713 log 228 Not Found: /users/verify
+WARNING 2019-05-14 22:21:31,715 basehttp 154 "GET /users/verify HTTP/1.1" 404 2892
+WARNING 2019-05-14 22:22:00,297 log 228 Not Found: /users/sms
+WARNING 2019-05-14 22:22:00,297 basehttp 154 "GET /users/sms?mobile=15892092015 HTTP/1.1" 404 2902
+WARNING 2019-05-14 22:36:03,381 log 228 Not Found: /users/verify
+WARNING 2019-05-14 22:36:03,382 basehttp 154 "GET /users/verify HTTP/1.1" 404 2892
+WARNING 2019-05-14 22:36:59,261 log 228 Not Found: /users/sms
+WARNING 2019-05-14 22:36:59,262 basehttp 154 "GET /users/sms?mobile=%22+this.mobile HTTP/1.1" 404 2906
+WARNING 2019-05-14 22:37:02,000 log 228 Not Found: /favicon.ico
+WARNING 2019-05-14 22:37:02,002 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2312
+WARNING 2019-05-14 22:37:02,320 log 228 Not Found: /users/
+WARNING 2019-05-14 22:37:02,321 basehttp 154 "GET /users/ HTTP/1.1" 404 2874
+INFO 2019-05-14 22:38:10,879 basehttp 154 "GET /users/sms/15892092015 HTTP/1.1" 301 0
+INFO 2019-05-14 22:38:12,452 basehttp 154 "GET /users/sms/15892092015/ HTTP/1.1" 200 12
+WARNING 2019-05-14 22:38:50,040 log 228 Not Found: /users/verify
+WARNING 2019-05-14 22:38:50,041 basehttp 154 "GET /users/verify HTTP/1.1" 404 2892
+INFO 2019-05-14 22:47:26,452 basehttp 154 "GET /users/sms/15892092015/ HTTP/1.1" 200 12
+INFO 2019-05-14 22:47:36,919 basehttp 154 "OPTIONS /users/register/ HTTP/1.1" 200 0
+INFO 2019-05-14 22:47:37,357 basehttp 154 "POST /users/register/ HTTP/1.1" 201 213
+INFO 2019-05-14 22:47:38,667 basehttp 154 "GET /api/nav/ HTTP/1.1" 200 144
+INFO 2019-05-14 22:47:38,702 basehttp 154 "GET /api/banner/ HTTP/1.1" 200 371
+INFO 2019-05-14 22:47:47,733 basehttp 154 "GET /users/captcha/ HTTP/1.1" 200 140
+INFO 2019-05-14 22:47:59,745 basehttp 154 "OPTIONS /users/captcha/ HTTP/1.1" 200 0
+INFO 2019-05-14 22:47:59,768 basehttp 154 "POST /users/captcha/ HTTP/1.1" 200 17
+INFO 2019-05-14 22:47:59,972 basehttp 154 "OPTIONS /users/login/ HTTP/1.1" 200 0
+INFO 2019-05-14 22:48:00,483 basehttp 154 "POST /users/login/ HTTP/1.1" 200 213
+INFO 2019-05-14 22:48:00,676 basehttp 154 "GET /api/banner/ HTTP/1.1" 200 371
+INFO 2019-05-14 22:48:00,686 basehttp 154 "GET /api/nav/ HTTP/1.1" 200 144
+INFO 2019-05-14 22:48:11,544 basehttp 154 "GET /users/captcha/ HTTP/1.1" 200 140
+INFO 2019-05-14 22:48:27,628 basehttp 154 "GET /users/sms/15013384356/ HTTP/1.1" 200 13
+INFO 2019-05-14 22:48:37,388 basehttp 154 "GET /users/sms/15013384356/ HTTP/1.1" 200 13
+INFO 2019-05-14 22:49:03,508 basehttp 154 "GET /users/sms/15013384356/ HTTP/1.1" 200 13
+INFO 2019-05-14 22:49:37,648 basehttp 154 "GET /users/captcha/ HTTP/1.1" 200 140
+INFO 2019-05-14 22:49:48,803 basehttp 154 "POST /users/captcha/ HTTP/1.1" 200 17
+WARNING 2019-05-14 22:49:51,872 log 228 Bad Request: /users/login/
+WARNING 2019-05-14 22:49:51,873 basehttp 154 "POST /users/login/ HTTP/1.1" 400 67
+WARNING 2019-05-14 22:50:00,426 log 228 Bad Request: /users/login/
+WARNING 2019-05-14 22:50:00,428 basehttp 154 "POST /users/login/ HTTP/1.1" 400 67
+INFO 2019-05-14 22:50:12,416 basehttp 154 "GET /users/captcha/ HTTP/1.1" 200 140
+INFO 2019-05-14 22:50:30,032 basehttp 154 "POST /users/captcha/ HTTP/1.1" 200 17
+INFO 2019-05-14 22:50:31,407 basehttp 154 "POST /users/login/ HTTP/1.1" 200 213
+INFO 2019-05-14 22:57:16,963 basehttp 154 "GET /users/sms/18396025238/ HTTP/1.1" 200 13
+INFO 2019-05-14 22:57:24,427 basehttp 154 "GET /users/sms/15892092015/ HTTP/1.1" 200 12
+INFO 2019-05-14 22:57:44,155 basehttp 154 "OPTIONS /users/register/ HTTP/1.1" 200 0
+ERROR 2019-05-14 22:57:44,378 log 228 Internal Server Error: /users/register/
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\generics.py", line 192, in post
+    return self.create(request, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\mixins.py", line 20, in create
+    serializer.is_valid(raise_exception=True)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 244, in is_valid
+    raise ValidationError(self.errors)
+rest_framework.exceptions.ValidationError: {'mobile': [ErrorDetail(string='具有 手机号 的 用户 已存在。', code='unique')]}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 452, in handle_exception
+    response = exception_handler(exc, context)
+  File "C:\Users\Administrator\PycharmProjects\luffy\luffy\utils\exceptions.py", line 37, in custom_exception_handler
+    if response is None:
+UnboundLocalError: local variable 'response' referenced before assignment
+ERROR 2019-05-14 22:57:44,395 basehttp 154 "POST /users/register/ HTTP/1.1" 500 107917
+ERROR 2019-05-14 22:57:48,352 log 228 Internal Server Error: /users/register/
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\generics.py", line 192, in post
+    return self.create(request, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\mixins.py", line 20, in create
+    serializer.is_valid(raise_exception=True)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 244, in is_valid
+    raise ValidationError(self.errors)
+rest_framework.exceptions.ValidationError: {'mobile': [ErrorDetail(string='具有 手机号 的 用户 已存在。', code='unique')]}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 452, in handle_exception
+    response = exception_handler(exc, context)
+  File "C:\Users\Administrator\PycharmProjects\luffy\luffy\utils\exceptions.py", line 37, in custom_exception_handler
+    if response is None:
+UnboundLocalError: local variable 'response' referenced before assignment
+ERROR 2019-05-14 22:57:48,360 basehttp 154 "POST /users/register/ HTTP/1.1" 500 107529
+ERROR 2019-05-14 22:57:48,560 log 228 Internal Server Error: /users/register/
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\generics.py", line 192, in post
+    return self.create(request, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\mixins.py", line 20, in create
+    serializer.is_valid(raise_exception=True)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 244, in is_valid
+    raise ValidationError(self.errors)
+rest_framework.exceptions.ValidationError: {'mobile': [ErrorDetail(string='具有 手机号 的 用户 已存在。', code='unique')]}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 452, in handle_exception
+    response = exception_handler(exc, context)
+  File "C:\Users\Administrator\PycharmProjects\luffy\luffy\utils\exceptions.py", line 37, in custom_exception_handler
+    if response is None:
+UnboundLocalError: local variable 'response' referenced before assignment
+ERROR 2019-05-14 22:57:48,571 basehttp 154 "POST /users/register/ HTTP/1.1" 500 107529
+ERROR 2019-05-14 22:57:49,349 log 228 Internal Server Error: /users/register/
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\generics.py", line 192, in post
+    return self.create(request, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\mixins.py", line 20, in create
+    serializer.is_valid(raise_exception=True)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 244, in is_valid
+    raise ValidationError(self.errors)
+rest_framework.exceptions.ValidationError: {'mobile': [ErrorDetail(string='具有 手机号 的 用户 已存在。', code='unique')]}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 452, in handle_exception
+    response = exception_handler(exc, context)
+  File "C:\Users\Administrator\PycharmProjects\luffy\luffy\utils\exceptions.py", line 37, in custom_exception_handler
+    if response is None:
+UnboundLocalError: local variable 'response' referenced before assignment
+ERROR 2019-05-14 22:57:49,374 basehttp 154 "POST /users/register/ HTTP/1.1" 500 107529
+ERROR 2019-05-14 22:57:49,548 log 228 Internal Server Error: /users/register/
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\generics.py", line 192, in post
+    return self.create(request, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\mixins.py", line 20, in create
+    serializer.is_valid(raise_exception=True)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 244, in is_valid
+    raise ValidationError(self.errors)
+rest_framework.exceptions.ValidationError: {'mobile': [ErrorDetail(string='具有 手机号 的 用户 已存在。', code='unique')]}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 452, in handle_exception
+    response = exception_handler(exc, context)
+  File "C:\Users\Administrator\PycharmProjects\luffy\luffy\utils\exceptions.py", line 37, in custom_exception_handler
+    if response is None:
+UnboundLocalError: local variable 'response' referenced before assignment
+ERROR 2019-05-14 22:57:49,557 basehttp 154 "POST /users/register/ HTTP/1.1" 500 107884
+ERROR 2019-05-14 22:57:58,487 log 228 Internal Server Error: /users/register/
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\generics.py", line 192, in post
+    return self.create(request, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\mixins.py", line 20, in create
+    serializer.is_valid(raise_exception=True)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 244, in is_valid
+    raise ValidationError(self.errors)
+rest_framework.exceptions.ValidationError: {'mobile': [ErrorDetail(string='具有 手机号 的 用户 已存在。', code='unique')]}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 452, in handle_exception
+    response = exception_handler(exc, context)
+  File "C:\Users\Administrator\PycharmProjects\luffy\luffy\utils\exceptions.py", line 37, in custom_exception_handler
+    if response is None:
+UnboundLocalError: local variable 'response' referenced before assignment
+ERROR 2019-05-14 22:57:58,496 basehttp 154 "POST /users/register/ HTTP/1.1" 500 107529
+INFO 2019-05-14 22:59:41,267 basehttp 154 "GET /users/sms/15013384356/ HTTP/1.1" 200 12
+INFO 2019-05-14 22:59:50,915 basehttp 154 "POST /users/register/ HTTP/1.1" 201 213
+INFO 2019-05-14 22:59:52,279 basehttp 154 "GET /api/banner/ HTTP/1.1" 200 371
+INFO 2019-05-14 22:59:52,286 basehttp 154 "GET /api/nav/ HTTP/1.1" 200 144
+INFO 2019-05-14 23:00:02,600 basehttp 154 "GET /users/captcha/ HTTP/1.1" 200 140
+INFO 2019-05-14 23:00:11,376 basehttp 154 "OPTIONS /users/captcha/ HTTP/1.1" 200 0
+INFO 2019-05-14 23:00:11,392 basehttp 154 "POST /users/captcha/ HTTP/1.1" 200 17
+INFO 2019-05-14 23:00:11,605 basehttp 154 "OPTIONS /users/login/ HTTP/1.1" 200 0
+WARNING 2019-05-14 23:00:11,986 log 228 Bad Request: /users/login/
+WARNING 2019-05-14 23:00:11,990 basehttp 154 "POST /users/login/ HTTP/1.1" 400 67
+WARNING 2019-05-14 23:00:20,863 log 228 Bad Request: /users/login/
+WARNING 2019-05-14 23:00:20,864 basehttp 154 "POST /users/login/ HTTP/1.1" 400 67
+WARNING 2019-05-14 23:00:21,567 log 228 Bad Request: /users/login/
+WARNING 2019-05-14 23:00:21,580 basehttp 154 "POST /users/login/ HTTP/1.1" 400 67
+WARNING 2019-05-14 23:00:21,726 log 228 Bad Request: /users/login/
+WARNING 2019-05-14 23:00:21,727 basehttp 154 "POST /users/login/ HTTP/1.1" 400 67
+WARNING 2019-05-14 23:00:21,893 log 228 Bad Request: /users/login/
+WARNING 2019-05-14 23:00:21,894 basehttp 154 "POST /users/login/ HTTP/1.1" 400 67
+WARNING 2019-05-14 23:01:01,781 log 228 Bad Request: /users/login/
+WARNING 2019-05-14 23:01:01,783 basehttp 154 "POST /users/login/ HTTP/1.1" 400 67
+WARNING 2019-05-14 23:01:52,190 log 228 Bad Request: /users/login/
+WARNING 2019-05-14 23:01:52,191 basehttp 154 "POST /users/login/ HTTP/1.1" 400 67
+WARNING 2019-05-14 23:03:10,398 log 228 Bad Request: /users/login/
+WARNING 2019-05-14 23:03:10,400 basehttp 154 "POST /users/login/ HTTP/1.1" 400 67
+INFO 2019-05-14 23:03:39,852 basehttp 154 "POST /users/login/ HTTP/1.1" 200 195
+WARNING 2019-05-14 23:04:07,166 log 228 Bad Request: /users/login/
+WARNING 2019-05-14 23:04:07,168 basehttp 154 "POST /users/login/ HTTP/1.1" 400 67
+WARNING 2019-05-14 23:04:41,546 log 228 Bad Request: /users/login/
+WARNING 2019-05-14 23:04:41,547 basehttp 154 "POST /users/login/ HTTP/1.1" 400 67
+ERROR 2019-05-14 23:05:26,273 log 228 Internal Server Error: /users/register/
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 169, in http_method_not_allowed
+    raise exceptions.MethodNotAllowed(request.method)
+rest_framework.exceptions.MethodNotAllowed: 方法 “GET” 不被允许。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 452, in handle_exception
+    response = exception_handler(exc, context)
+  File "C:\Users\Administrator\PycharmProjects\luffy\luffy\utils\exceptions.py", line 37, in custom_exception_handler
+    if response is None:
+UnboundLocalError: local variable 'response' referenced before assignment
+ERROR 2019-05-14 23:05:26,300 basehttp 154 "GET /users/register/ HTTP/1.1" 500 98379
+ERROR 2019-05-14 23:05:53,844 log 228 Internal Server Error: /users/register/
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\generics.py", line 192, in post
+    return self.create(request, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\mixins.py", line 20, in create
+    serializer.is_valid(raise_exception=True)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 244, in is_valid
+    raise ValidationError(self.errors)
+rest_framework.exceptions.ValidationError: {'mobile': [ErrorDetail(string='该字段是必填项。', code='required')], 'password': [ErrorDetail(string='该字段是必填项。', code='required')], 'password2': [ErrorDetail(string='该字段是必填项。', code='required')], 'sms_code': [ErrorDetail(string='该字段是必填项。', code='required')]}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 452, in handle_exception
+    response = exception_handler(exc, context)
+  File "C:\Users\Administrator\PycharmProjects\luffy\luffy\utils\exceptions.py", line 37, in custom_exception_handler
+    if response is None:
+UnboundLocalError: local variable 'response' referenced before assignment
+ERROR 2019-05-14 23:05:53,857 basehttp 154 "POST /users/register/ HTTP/1.1" 500 109065
+INFO 2019-05-14 23:07:17,698 basehttp 154 "POST /users/captcha/ HTTP/1.1" 200 13
+WARNING 2019-05-14 23:07:28,192 log 228 Bad Request: /users/login/
+WARNING 2019-05-14 23:07:28,196 basehttp 154 "POST /users/login/ HTTP/1.1" 400 67
+WARNING 2019-05-14 23:07:28,514 log 228 Bad Request: /users/login/
+WARNING 2019-05-14 23:07:28,516 basehttp 154 "POST /users/login/ HTTP/1.1" 400 67
+INFO 2019-05-14 23:07:31,884 basehttp 154 "GET /users/captcha/ HTTP/1.1" 200 140
+INFO 2019-05-14 23:07:46,780 basehttp 154 "POST /users/captcha/ HTTP/1.1" 200 17
+WARNING 2019-05-14 23:07:54,139 log 228 Bad Request: /users/login/
+WARNING 2019-05-14 23:07:54,141 basehttp 154 "POST /users/login/ HTTP/1.1" 400 67
+WARNING 2019-05-14 23:07:55,031 log 228 Bad Request: /users/login/
+WARNING 2019-05-14 23:07:55,033 basehttp 154 "POST /users/login/ HTTP/1.1" 400 67
+WARNING 2019-05-14 23:07:58,997 log 228 Bad Request: /users/login/
+WARNING 2019-05-14 23:07:58,998 basehttp 154 "POST /users/login/ HTTP/1.1" 400 67
+WARNING 2019-05-14 23:08:41,029 log 228 Bad Request: /users/login/
+WARNING 2019-05-14 23:08:41,032 basehttp 154 "POST /users/login/ HTTP/1.1" 400 67
+WARNING 2019-05-14 23:08:53,968 log 228 Bad Request: /users/login/
+WARNING 2019-05-14 23:08:53,970 basehttp 154 "POST /users/login/ HTTP/1.1" 400 67
+INFO 2019-05-14 23:09:22,557 basehttp 154 "POST /users/login/ HTTP/1.1" 200 195
+INFO 2019-05-14 23:09:50,551 basehttp 154 "POST /users/login/ HTTP/1.1" 200 213
+WARNING 2019-05-14 23:10:22,756 log 228 Bad Request: /users/login/
+WARNING 2019-05-14 23:10:22,757 basehttp 154 "POST /users/login/ HTTP/1.1" 400 67
+WARNING 2019-05-14 23:10:43,548 log 228 Bad Request: /users/login/
+WARNING 2019-05-14 23:10:43,552 basehttp 154 "POST /users/login/ HTTP/1.1" 400 67
+INFO 2019-05-14 23:11:07,160 basehttp 154 "GET /api/nav/ HTTP/1.1" 200 144
+INFO 2019-05-14 23:11:07,169 basehttp 154 "GET /api/banner/ HTTP/1.1" 200 371
+INFO 2019-05-14 23:11:22,682 basehttp 154 "GET /users/sms/15892092105/ HTTP/1.1" 200 13
+INFO 2019-05-14 23:11:29,472 basehttp 154 "GET /users/sms/15892092105/ HTTP/1.1" 200 13
+INFO 2019-05-14 23:11:41,694 basehttp 154 "GET /users/sms/15892092105/ HTTP/1.1" 200 13
+INFO 2019-05-14 23:12:27,143 basehttp 154 "GET /users/sms/15892092105/ HTTP/1.1" 200 13
+INFO 2019-05-14 23:12:53,777 basehttp 154 "GET /users/sms/15892092015/ HTTP/1.1" 200 12
+INFO 2019-05-14 23:13:06,912 basehttp 154 "OPTIONS /users/register/ HTTP/1.1" 200 0
+ERROR 2019-05-14 23:13:07,101 log 228 Internal Server Error: /users/register/
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 492, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\generics.py", line 192, in post
+    return self.create(request, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\mixins.py", line 20, in create
+    serializer.is_valid(raise_exception=True)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\serializers.py", line 244, in is_valid
+    raise ValidationError(self.errors)
+rest_framework.exceptions.ValidationError: {'mobile': [ErrorDetail(string='具有 手机号 的 用户 已存在。', code='unique')]}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 495, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python36-32\lib\site-packages\rest_framework\views.py", line 452, in handle_exception
+    response = exception_handler(exc, context)
+  File "C:\Users\Administrator\PycharmProjects\luffy\luffy\utils\exceptions.py", line 37, in custom_exception_handler
+    if response is None:
+UnboundLocalError: local variable 'response' referenced before assignment
+ERROR 2019-05-14 23:13:07,109 basehttp 154 "POST /users/register/ HTTP/1.1" 500 107693
+INFO 2019-05-14 23:14:41,138 basehttp 154 "GET /users/sms/15892092015/ HTTP/1.1" 200 12
+INFO 2019-05-14 23:14:48,809 basehttp 154 "POST /users/register/ HTTP/1.1" 201 213
+INFO 2019-05-14 23:14:50,228 basehttp 154 "GET /api/nav/ HTTP/1.1" 200 144
+INFO 2019-05-14 23:14:50,234 basehttp 154 "GET /api/banner/ HTTP/1.1" 200 371
+INFO 2019-05-14 23:15:50,689 basehttp 154 "GET /users/captcha/ HTTP/1.1" 200 140
+INFO 2019-05-14 23:16:09,498 basehttp 154 "OPTIONS /users/captcha/ HTTP/1.1" 200 0
+INFO 2019-05-14 23:16:09,517 basehttp 154 "POST /users/captcha/ HTTP/1.1" 200 17
+INFO 2019-05-14 23:16:09,944 basehttp 154 "OPTIONS /users/login/ HTTP/1.1" 200 0
+WARNING 2019-05-14 23:16:09,980 log 228 Bad Request: /users/login/
+WARNING 2019-05-14 23:16:09,982 basehttp 154 "POST /users/login/ HTTP/1.1" 400 67
+INFO 2019-05-14 23:20:27,026 basehttp 154 "POST /users/login/ HTTP/1.1" 200 213
+WARNING 2019-05-14 23:20:33,468 log 228 Bad Request: /users/login/
+WARNING 2019-05-14 23:20:33,470 basehttp 154 "POST /users/login/ HTTP/1.1" 400 67
+WARNING 2019-05-14 23:20:36,074 log 228 Bad Request: /users/login/
+WARNING 2019-05-14 23:20:36,075 basehttp 154 "POST /users/login/ HTTP/1.1" 400 67
+INFO 2019-05-14 23:20:42,263 basehttp 154 "GET /users/captcha/ HTTP/1.1" 200 140
+INFO 2019-05-14 23:20:58,420 basehttp 154 "POST /users/captcha/ HTTP/1.1" 200 17
+INFO 2019-05-14 23:20:59,105 basehttp 154 "POST /users/login/ HTTP/1.1" 200 213
+INFO 2019-05-14 23:20:59,404 basehttp 154 "GET /api/nav/ HTTP/1.1" 200 144
+INFO 2019-05-14 23:20:59,421 basehttp 154 "GET /api/banner/ HTTP/1.1" 200 371
+INFO 2019-05-14 23:21:07,413 basehttp 154 "GET /users/captcha/ HTTP/1.1" 200 140
+INFO 2019-05-14 23:21:22,254 basehttp 154 "POST /users/captcha/ HTTP/1.1" 200 17
+INFO 2019-05-14 23:21:22,933 basehttp 154 "POST /users/login/ HTTP/1.1" 200 213
+INFO 2019-05-14 23:21:23,134 basehttp 154 "GET /api/nav/ HTTP/1.1" 200 144
+INFO 2019-05-14 23:21:23,143 basehttp 154 "GET /api/banner/ HTTP/1.1" 200 371
+INFO 2019-05-14 23:21:31,374 basehttp 154 "GET /users/captcha/ HTTP/1.1" 200 140
+INFO 2019-05-14 23:21:43,570 basehttp 154 "POST /users/captcha/ HTTP/1.1" 200 17
+INFO 2019-05-14 23:21:44,116 basehttp 154 "POST /users/login/ HTTP/1.1" 200 195
+INFO 2019-05-14 23:21:44,322 basehttp 154 "GET /api/nav/ HTTP/1.1" 200 144
+INFO 2019-05-14 23:21:44,332 basehttp 154 "GET /api/banner/ HTTP/1.1" 200 371
+INFO 2019-05-14 23:21:55,147 basehttp 154 "POST /users/login/ HTTP/1.1" 200 213
+INFO 2019-05-14 23:21:57,397 basehttp 154 "POST /users/login/ HTTP/1.1" 200 213
+INFO 2019-05-14 23:28:23,601 basehttp 154 "GET /users/captcha/ HTTP/1.1" 200 140
+INFO 2019-05-14 23:28:39,619 basehttp 154 "OPTIONS /users/captcha/ HTTP/1.1" 200 0
+INFO 2019-05-14 23:28:39,638 basehttp 154 "POST /users/captcha/ HTTP/1.1" 200 17
+INFO 2019-05-14 23:28:40,131 basehttp 154 "OPTIONS /users/login/ HTTP/1.1" 200 0
+WARNING 2019-05-14 23:28:40,153 log 228 Bad Request: /users/login/
+WARNING 2019-05-14 23:28:40,154 basehttp 154 "POST /users/login/ HTTP/1.1" 400 67
+WARNING 2019-05-14 23:28:48,935 log 228 Bad Request: /users/login/
+WARNING 2019-05-14 23:28:48,936 basehttp 154 "POST /users/login/ HTTP/1.1" 400 67
+INFO 2019-05-14 23:29:08,501 basehttp 154 "POST /users/login/ HTTP/1.1" 200 213
+INFO 2019-05-14 23:29:08,708 basehttp 154 "GET /api/nav/ HTTP/1.1" 200 144
+INFO 2019-05-14 23:29:08,756 basehttp 154 "GET /api/banner/ HTTP/1.1" 200 371
