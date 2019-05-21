@@ -74,9 +74,18 @@ INSTALLED_APPS = [
     'xadmin',
     'crispy_forms',
     'reversion',
+    'django_filters',
+    'ckeditor',  # 富文本编辑器
+    'ckeditor_uploader',  # 富文本编辑器上传图片模块
+
+
+
+
 
     'home',
-    'users'
+    'users',
+    'courses',
+    'cart',
 
 ]
 AUTH_USER_MODEL = 'users.User'
@@ -86,7 +95,6 @@ MIDDLEWARE = [
 
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
-
 
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -112,6 +120,7 @@ TEMPLATES = [
             ],
         },
     },
+# 'DIRS': [os.path.join(BASE_DIR, "templates"),],
 ]
 
 WSGI_APPLICATION = 'luffy.utils.wsgi.application'
@@ -221,17 +230,17 @@ REST_FRAMEWORK = {
 }
 
 import datetime
+
 JWT_AUTH = {
     'JWT_EXPIRATION_DELTA': datetime.timedelta(days=1),
-'JWT_RESPONSE_PAYLOAD_HANDLER': 'users.utils.jwt_response_payload_handler',
+    'JWT_RESPONSE_PAYLOAD_HANDLER': 'users.utils.jwt_response_payload_handler',
 }
 AUTHENTICATION_BACKENDS = [
     'users.utils.UsernameMobileAuthBackend',
 ]
 
 PC_GEETEST_ID = '5f4ab1914455506edffaffd4da37fea5'
-PC_GEETEST_KEY ='460e13a49d687e5e44e25c383f0473a6'
-
+PC_GEETEST_KEY = '460e13a49d687e5e44e25c383f0473a6'
 
 # 设置redis缓存
 CACHES = {
@@ -254,21 +263,25 @@ CACHES = {
         }
     },
     # 提供存储短信验证码
-    "sms_code":{
+    "sms_code": {
         "BACKEND": "django_redis.cache.RedisCache",
         "LOCATION": "redis://127.0.0.1:6379/2",
         "OPTIONS": {
             "CLIENT_CLASS": "django_redis.client.DefaultClient",
         }
-    }
+    },
+    "cart": {
+        "BACKEND": "django_redis.cache.RedisCache",
+        "LOCATION": "redis://127.0.0.1:6379/3",
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient",
+        }
+    },
 }
 
 # 设置xadmin用户登录时,登录信息session保存到redis
 SESSION_ENGINE = "django.contrib.sessions.backends.cache"
 SESSION_CACHE_ALIAS = "session"
-
-
-
 
 redis_conn = get_redis_connection("default")
 
@@ -284,3 +297,20 @@ SMS_APPID = '8a216da86ab0b4d2016ab3e0603900b7'
 
 # 说明：请求地址，生产环境配置成app.cloopen.com
 SMS_SERVERIP = 'sandboxapp.cloopen.com'
+
+
+# 富文本编辑器ckeditor配置
+CKEDITOR_CONFIGS = {
+    'default': {
+        'toolbar': 'full',  # 工具条功能
+        'height': 300,      # 编辑器高度
+        # 'width': 300,     # 编辑器宽
+    },
+}
+CKEDITOR_UPLOAD_PATH = ''
+# 保利威视频加密服务
+POLYV_CONFIG = {
+    "userId":"371ccb8ee0",
+    "secretkey":"rCQ1imOdlc",
+    "servicesUrl":"https://hls.videocc.net/service/v1/token",
+}

@@ -44,7 +44,7 @@ class xmltojson:
             print('the element is None!')
 
     def get_element_text(self, element):
-        '''return the text of the element.'''
+        '''return the css of the element.'''
         if element is not None:
             return element.text
         else:
