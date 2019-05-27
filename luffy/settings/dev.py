@@ -78,14 +78,13 @@ INSTALLED_APPS = [
     'ckeditor',  # 富文本编辑器
     'ckeditor_uploader',  # 富文本编辑器上传图片模块
 
-
-
-
-
     'home',
     'users',
     'courses',
     'cart',
+    'orders',
+    'coupon',
+    'payments',
 
 ]
 AUTH_USER_MODEL = 'users.User'
@@ -120,7 +119,7 @@ TEMPLATES = [
             ],
         },
     },
-# 'DIRS': [os.path.join(BASE_DIR, "templates"),],
+    # 'DIRS': [os.path.join(BASE_DIR, "templates"),],
 ]
 
 WSGI_APPLICATION = 'luffy.utils.wsgi.application'
@@ -298,19 +297,34 @@ SMS_APPID = '8a216da86ab0b4d2016ab3e0603900b7'
 # 说明：请求地址，生产环境配置成app.cloopen.com
 SMS_SERVERIP = 'sandboxapp.cloopen.com'
 
-
 # 富文本编辑器ckeditor配置
 CKEDITOR_CONFIGS = {
     'default': {
         'toolbar': 'full',  # 工具条功能
-        'height': 300,      # 编辑器高度
+        'height': 300,  # 编辑器高度
         # 'width': 300,     # 编辑器宽
     },
 }
 CKEDITOR_UPLOAD_PATH = ''
 # 保利威视频加密服务
 POLYV_CONFIG = {
-    "userId":"371ccb8ee0",
-    "secretkey":"rCQ1imOdlc",
-    "servicesUrl":"https://hls.videocc.net/service/v1/token",
+    "userId": "371ccb8ee0",
+    "secretkey": "rCQ1imOdlc",
+    "servicesUrl": "https://hls.videocc.net/service/v1/token",
 }
+
+# 禁止英文时区
+USE_TZ = False
+
+
+
+
+
+# 支付宝电脑网站支付配置信息
+ALIPAY_APPID = "2016092900621829"
+APP_NOTIFY_URL = None
+ALIPAY_DEBUG = True
+# APIPAY_GATEWAY="https://openapi.alipay.com/gateway.do"
+APIPAY_GATEWAY="https://openapi.alipaydev.com/gateway.do"
+ALIPAY_RETURN_URL = "http://localhost:8080/#/success"
+ALIPAY_NOTIFY_URL = "http://127.0.0.1:8000/payments/success"

@@ -34,6 +34,9 @@ urlpatterns = [
     path('courses/', include("courses.urls")),
     path(r'^ckeditor/', include('ckeditor_uploader.urls')),
     path('cart/', include("cart.urls")),
+    path('orders/', include("orders.urls")),
+    path('coupon/', include("coupon.urls")),
+    path('payments/', include("payments.urls")),
     re_path(r'media/(?P<path>.*)', serve, {"document_root": settings.MEDIA_ROOT}),
 ]
 # import xadmin

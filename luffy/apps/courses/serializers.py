@@ -70,7 +70,7 @@ class CourseModelSerializer(serializers.ModelSerializer):
     # coursechapters = CourseChapterModelSerializer(many=True)
     class Meta:
         model = Course
-        fields = ("id", "name", "course_img", "students", "lessons", "pub_lessons", "price", "teacher")
+        fields = ("id", "name", "course_img", "students", "lessons", "pub_lessons", "price", "teacher","lesson_list","get_course_price","get_course_discount_type")
 
 
 '''
@@ -81,7 +81,8 @@ class CourseModelSerializer(serializers.ModelSerializer):
 class TeacherDetailModelSerializer(serializers.ModelSerializer):
     class Meta:
         model = Teacher
-        fields = ("id", "name", "title", "role", "signature", "image", "brief")
+        fields = (
+        "id", "name", "title", "role", "signature", "image", "brief")
 
 
 class CourseDetailModelSerializer(serializers.ModelSerializer):
@@ -91,8 +92,9 @@ class CourseDetailModelSerializer(serializers.ModelSerializer):
     class Meta:
         model = Course
         fields = (
-            "id", "name", "video","course_img", "students", "lessons", "pub_lessons", "price", "teacher", "course_level",
-            "brief")
+            "id", "name", "video", "course_img", "students", "lessons", "pub_lessons", "price", "teacher",
+            "course_level",
+            "brief", "get_course_price", "get_course_discount_type","has_time")
 
 
 from .models import CourseLesson
@@ -116,5 +118,3 @@ class CourseChapterModelSerializer(serializers.ModelSerializer):
     class Meta:
         model = CourseChapter
         fields = ("id", "name", "coursesections", "chapter")
-
-

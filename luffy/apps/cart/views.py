@@ -2,75 +2,81 @@ from django.shortcuts import render
 
 # Create your views here.
 from rest_framework.views import APIView
-from courses.models import Course, CourseTime
+from courses.models import Course
 from rest_framework.response import Response
 from django_redis import get_redis_connection
 from rest_framework.permissions import IsAuthenticated
 from rest_framework import status
-from django.conf import settings
+from courses.models import CourseTime
+
 class CartAPIView(APIView):
-    # permission_classes = [IsAuthenticated]
-    def get(self, request):
+    permission_classes = [IsAuthenticated]
+    """购物车视图"""
+    def get(self,request):
         """获取购物车商品课程列表"""
         # 获取当前用户ID
-        user_id = 1
-        # user_id = request.user.id
+        # user_id = 1
+        user_id = request.user.id
         # 通过用户ID获取购物车中的商品信息
         redis = get_redis_connection("cart")
-        cart_goods_list = redis.hgetall("cart_%s" % user_id)  # 商品课程列表
+        cart_goods_list = redis.hgetall("cart_%s" % user_id ) # 商品课程列表
         cart_goods_selects = redis.smembers("cart_selected_%s" % user_id)
         # redis里面的所有数据最终都是以bytes类型的字符串保存的
-        print( 'selects',cart_goods_selects ) # 格式: {b'7', b'3', b'5'}
-        print( 'list',cart_goods_list ) # 格式: {b'7': b'-1', b'5': b'-1'}
+        # print( cart_goods_selects ) # 格式: {b'7', b'3', b'5'}
+        # print( cart_goods_list ) # 格式: {b'7': b'-1', b'5': b'-1'}
         # 遍历购物车中的商品课程到数据库获取课程的价格, 标题, 图片
         data_list = []
-        try:
-            for course_id_bytes, expire_bytes in cart_goods_list.items():
-                course_id = int(course_id_bytes.decode())
-                expire = expire_bytes.decode()
-                course = Course.objects.get(pk=course_id)
+        # try:
+        for course_id_bytes,expire_bytes in cart_goods_list.items():
+            course_id = int( course_id_bytes.decode() )
+            expire    = expire_bytes.decode()
+            course = Course.objects.get(pk=course_id)
 
-                # 获取购买的课程的周期价格列表
-                expires = course.coursetimes.all()
-                # 默认具有永久价格
-                expire_list = [{
-                    "title": "永久有效",
-                    "timer": -1,
-                    "price": course.price
-                }]
-                for item in expires:
-                    expire_list.append({
-                        "title": item.title,
-                        "timer": item.timer,
-                        "price": item.price,
-                    })
-                data_list.append({
-                    "id": course_id,
-                    "expire": expire,
-                    "course_img": course.course_img.url,
-                    "name": course.name,
-                    "price": course.get_course_price(),
-                    "is_select": course_id_bytes in cart_goods_selects,
-                    "expire_list": expire_list,
+            # 获取购买的课程的周期价格列表
+            expires = course.coursetimes.all()
+            # 默认具有永久价格
+            expire_list = [{
+                "title": "永久有效",
+                "timer": -1,
+                "price": course.price
+            }]
+            for item in expires:
+                expire_list.append({
+                    "title":item.title,
+                    "timer":item.timer,
+                    "price":item.price,
                 })
-        except:
-            return Response(data_list, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
-        print(data_list)
+
+            try:
+                # 根据课程有效期传入课程原价
+                coursetime = CourseTime.objects.get(course=course_id, timer=expire)
+                # 根据新的课程价格,计算真实课程价格
+                price= coursetime.price
+            except:
+                price = 0
+
+            data_list.append({
+                "id": course_id,
+                "expire":expire,
+                "course_img": course.course_img.url,
+                "name": course.name,
+                "price": course.get_course_price(price),
+                "is_select": course_id_bytes in cart_goods_selects,
+                "expire_list": expire_list,
+            })
+        # except:
+        #     return Response(data_list,status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+        # print(data_list)
         # 返回查询结果
-        # print('dadadadad', data_list)
+        return Response(data_list,status=status.HTTP_200_OK)
 
-        return Response(data_list, status=status.HTTP_200_OK)
-
-    """购物车视图"""
     def post(self,request):
         """购物车添加商品"""
         # 获取客户端发送过来的课程ID
         course_id = request.data.get("course_id")
-        # course_id = 1
         # 验证课程ID是否有效
         try:
             Course.objects.get(pk=course_id,is_delete=False,is_show=True)
-            print('course_id',course_id)
         except Course.DoesNotExist:
             return Response({"message":"当前课程不存在!"},status=status.HTTP_400_BAD_REQUEST)
 
@@ -110,46 +116,40 @@ class CartAPIView(APIView):
             "count": count,
         }, status=status.HTTP_200_OK)
 
-    def put(self, request):
-        """购物车更新商品信息"""
+    def put(self,request):
+        """购物车更新商品信息[切换购买商品的勾选状态]"""
         # 获取当前登录用户ID
-        # user_id = request.user.id
-        user_id = 1
+        user_id = request.user.id
 
         # 接受课程ID,判断课程ID是否存在
         course_id = request.data.get("course_id")
         try:
-            Course.objects.get(pk=course_id, is_delete=False, is_show=True)
+            Course.objects.get(pk=course_id,is_delete=False,is_show=True)
         except Course.DoesNotExist:
-            return Response({"message": "当前课程不存在!"}, status=status.HTTP_400_BAD_REQUEST)
+            return Response({"message":"当前课程不存在!"},status=status.HTTP_400_BAD_REQUEST)
 
         # 获取勾选状态
         is_select = request.data.get("is_select")
-        print('is_select',is_select,type(is_select))
-        # print('false')
-
-
+        print(is_select)
         # 链接redis
         redis = get_redis_connection("cart")
 
         # 修改购物车中指定商品课程的信息
         if is_select:
             # 从勾选集合中新增一个课程ID
-            redis.sadd("cart_selected_%s" % user_id, course_id)
-            print('课程select增加成功')
+            redis.sadd("cart_selected_%s" % user_id, course_id )
         else:
-            redis.srem("cart_selected_%s" % user_id, course_id)
-            print('课程select删除成功')
+            redis.srem("cart_selected_%s" % user_id, course_id )
 
         return Response({
             "message": "修改购物车信息成功!"
         }, status=status.HTTP_200_OK)
 
-    def patch(self, request):
-        """更新购物城中的商品信息"""
+    def patch(self,request):
+        """更新购物城中的商品信息[切换课程有效期]"""
         # 获取当前登录的用户ID
-        user_id = 1
-        # user_id = request.user.id
+        # user_id = 1
+        user_id = request.user.id
 
         # 获取当前操作的课程ID
         course_id = request.data.get("course_id")
@@ -161,30 +161,25 @@ class CartAPIView(APIView):
         redis = get_redis_connection("cart")
 
         # 更新购物中商品课程的有效期
-        redis.hset("cart_%s" % user_id, course_id, expire)
-        print('course_id',course_id)
-        print('expire',expire)
+        redis.hset("cart_%s" % user_id,course_id, expire)
+
         # 根据新的课程有效期获取新的课程原价
         try:
-            print('111')
             coursetime = CourseTime.objects.get(course=course_id, timer=expire)
-            print('222')
             # 根据新的课程价格,计算真实课程价格
             price = coursetime.course.get_course_price(coursetime.price)
-            print('走的1')
         except:
             # 这里给price设置一个默认值,当值-1,则前段不许要对价格进行调整
             course = Course.objects.get(pk=course_id)
             price = course.get_course_price()
-            print('走的2')
-        print('发送到前端的金额为',price)
+
 
         return Response({
             "price": price,
             "message": "修改购物车信息成功!"
         }, status=status.HTTP_200_OK)
 
-    def delete(self, request):
+    def delete(self,request):
         """从购物车中删除数据"""
         # 获取当前登录用户ID
         # user_id = 1
@@ -197,12 +192,12 @@ class CartAPIView(APIView):
 
         pipeline.multi()
         # 从购物车中删除指定商品课程
-        pipeline.hdel("cart_%s" % user_id, course_id)
+        pipeline.hdel("cart_%s" % user_id, course_id )
 
         # 从勾选集合中移除指定商品课程
-        pipeline.srem("cart_selected_%s" % user_id, course_id)
+        pipeline.srem("cart_selected_%s" % user_id, course_id )
 
         pipeline.execute()
 
         # 返回操作结果
-        return Response({"message": "删除商品课程成功!"}, status=status.HTTP_204_NO_CONTENT)
+        return Response({"message":"删除商品课程成功!"},status=status.HTTP_204_NO_CONTENT)

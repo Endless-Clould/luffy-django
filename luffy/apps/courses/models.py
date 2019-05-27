@@ -78,10 +78,10 @@ class Course(BaseModel):
         except:
             return ""
 
-    def get_course_price(self):
+    def get_course_price(self,price=0):
         # 获取当前课程的真实价格
         # 获取当前课程的价格策略
-
+        self.price = price if price != 0 else self.price  # 判断调用当前方法时,是否定义了价格
         now = datetime.now()
         try:
             course_prices = self.prices.get(start_time__lte=now, end_time__gte=now, is_delete=False, is_show=True)
@@ -293,3 +293,27 @@ class CoursePriceDiscount(BaseModel):
 
     def __str__(self):
         return "优惠: %s,开始时间:%s,结束时间:%s" % (self.discount.discount_name, self.start_time, self.end_time)
+
+
+
+
+
+
+
+
+
+"""课程有效期"""
+class CourseTime(BaseModel):
+    """课程有效期表"""
+    timer = models.IntegerField(verbose_name="购买周期",default=30,help_text="单位:天<br>建议按月书写,例如:1个月,则为30.")
+    title = models.CharField(max_length=150, null=True, blank=True, verbose_name="购买周期的文本提示", default="1个月有效", help_text="要根据上面的购买周期,<br>声明对应的提示内容,<br>展示在购物车商品列表中")
+    course = models.ForeignKey("Course", on_delete=models.CASCADE, related_name="coursetimes", verbose_name="课程")
+    price = models.DecimalField(max_digits=6, decimal_places=2, verbose_name="课程原价", default=0)
+
+    class Meta:
+        db_table = "ly_course_time"
+        verbose_name = "课程有效期表"
+        verbose_name_plural = "课程有效期表"
+
+    def __str__(self):
+        return "课程:%s,周期:%s,价格:%s" % (self.course, self.timer, self.price)
